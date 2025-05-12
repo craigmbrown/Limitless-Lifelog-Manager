@@ -1,0 +1,2 @@
+[console_scripts]
+lifelog = limitless_lifelog.__main__:main

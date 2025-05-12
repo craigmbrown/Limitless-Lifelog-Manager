@@ -1,0 +1,1446 @@
+{
+  "tasks": [
+    {
+      "item_id": "task-0",
+      "transcript_id": "mock-transcript-0",
+      "transcript_details": {
+        "content": "Project update for the data migration project. We're currently at about 75% completion. Tasks remaining include testing the new database schema and implementing the rollback procedures. We should schedule a review meeting for next Tuesday at 2pm with the team. Also, I need to remember to contact Jane about the server capacity requirements.",
+        "created_at": "2025-05-12 01:33:07",
+        "context": "Extended context for task from transcript 1",
+        "keywords": [
+          "task",
+          "important",
+          "project",
+          "timeline",
+          "deadline",
+          "database"
+        ],
+        "importance_level": "high",
+        "action_keywords": [
+          "complete",
+          "update",
+          "review",
+          "implement",
+          "schedule"
+        ],
+        "priority_indicators": [
+          {
+            "keyword": "important",
+            "priority": "high",
+            "context": "This is important work"
+          },
+          {
+            "keyword": "soon",
+            "priority": "medium",
+            "context": "Complete this soon"
+          }
+        ],
+        "status_indicators": [
+          {
+            "keyword": "started",
+            "status": "In Progress",
+            "context": "We've already started this"
+          }
+        ],
+        "date_indicators": [
+          {
+            "date": "next week",
+            "text": "due next week",
+            "position": 50
+          }
+        ],
+        "source_reference": "Transcript ID: mock-transcript-0",
+        "extraction_date": "2025-05-12",
+        "extraction_method": "Limitless Lifelog Processor"
+      },
+      "properties": {
+        "Title": {
+          "title": [
+            {
+              "text": {
+                "content": "2025-05-12 | Task from transcript 1"
+              }
+            }
+          ]
+        },
+        "Description": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Project update for the data migration project. We're currently at about 75% completion. Tasks remain...\n\nTranscript Content:\nProject update for the data migration project. We're currently at about 75% completion. Tasks remaining include testing the new database schema and implementing the rollback procedures. We should schedule a review meeting for next Tuesday at 2pm with the team. Also, I need to remember to contact Jan...\n\nKeywords: task, important, project, timeline, deadline, database\n\nImportance Level: high\n\nSource: Transcript mock-transcript-0"
+              }
+            }
+          ]
+        },
+        "Status": {
+          "status": {
+            "name": "Not Started"
+          }
+        },
+        "Priority": {
+          "select": {
+            "name": "High"
+          }
+        },
+        "Created Date": {
+          "date": {
+            "start": "2025-05-12"
+          }
+        },
+        "Due Date": {
+          "date": {
+            "start": "2025-05-13"
+          }
+        },
+        "Assignee": {
+          "select": {
+            "name": "Unassigned"
+          }
+        },
+        "Project": {
+          "select": {
+            "name": "General Tasks"
+          }
+        },
+        "Tags": {
+          "multi_select": [
+            {
+              "name": "Project"
+            },
+            {
+              "name": "Timeline"
+            },
+            {
+              "name": "Deadline"
+            },
+            {
+              "name": "Database"
+            }
+          ]
+        },
+        "Source": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Transcript ID: mock-transcript-0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "item_id": "task-2",
+      "transcript_id": "mock-transcript-2",
+      "transcript_details": {
+        "content": "Tasks for this week: First, review and sign off on the design documents. Second, prepare the presentation for the client meeting on Thursday. Third, follow up with HR about the new hire paperwork. Finally, don't forget to submit the quarterly report by Friday end of day.",
+        "created_at": "2025-05-12 01:33:07",
+        "context": "Extended context for task from transcript 3",
+        "keywords": [
+          "task",
+          "important",
+          "project",
+          "timeline",
+          "deadline",
+          "database"
+        ],
+        "importance_level": "medium-high",
+        "action_keywords": [
+          "complete",
+          "update",
+          "review",
+          "implement",
+          "schedule"
+        ],
+        "priority_indicators": [
+          {
+            "keyword": "important",
+            "priority": "high",
+            "context": "This is important work"
+          },
+          {
+            "keyword": "soon",
+            "priority": "medium",
+            "context": "Complete this soon"
+          }
+        ],
+        "status_indicators": [
+          {
+            "keyword": "started",
+            "status": "In Progress",
+            "context": "We've already started this"
+          }
+        ],
+        "date_indicators": [
+          {
+            "date": "next week",
+            "text": "due next week",
+            "position": 50
+          }
+        ],
+        "source_reference": "Transcript ID: mock-transcript-2",
+        "extraction_date": "2025-05-12",
+        "extraction_method": "Limitless Lifelog Processor"
+      },
+      "properties": {
+        "Title": {
+          "title": [
+            {
+              "text": {
+                "content": "2025-05-12 | Task from transcript 3"
+              }
+            }
+          ]
+        },
+        "Description": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Tasks for this week: First, review and sign off on the design documents. Second, prepare the present...\n\nTranscript Content:\nTasks for this week: First, review and sign off on the design documents. Second, prepare the presentation for the client meeting on Thursday. Third, follow up with HR about the new hire paperwork. Finally, don't forget to submit the quarterly report by Friday end of day.\n\nKeywords: task, important, project, timeline, deadline, database\n\nImportance Level: medium-high\n\nSource: Transcript mock-transcript-2"
+              }
+            }
+          ]
+        },
+        "Status": {
+          "status": {
+            "name": "Not Started"
+          }
+        },
+        "Priority": {
+          "select": {
+            "name": "Low"
+          }
+        },
+        "Created Date": {
+          "date": {
+            "start": "2025-05-12"
+          }
+        },
+        "Due Date": {
+          "date": {
+            "start": "2025-05-15"
+          }
+        },
+        "Assignee": {
+          "select": {
+            "name": "Unassigned"
+          }
+        },
+        "Project": {
+          "select": {
+            "name": "General Tasks"
+          }
+        },
+        "Tags": {
+          "multi_select": [
+            {
+              "name": "Project"
+            },
+            {
+              "name": "Timeline"
+            },
+            {
+              "name": "Deadline"
+            },
+            {
+              "name": "Database"
+            }
+          ]
+        },
+        "Source": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Transcript ID: mock-transcript-2"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "item_id": "task-3",
+      "transcript_id": "mock-transcript-3",
+      "transcript_details": {
+        "content": "Thinking about research ideas. Need to organize my ideas and create a structured plan. Should talk to Alex about this next week. Important to complete the initial research by August 15.",
+        "created_at": "2025-05-12 01:33:07",
+        "context": "Extended context for task from transcript 4",
+        "keywords": [
+          "task",
+          "important",
+          "project",
+          "timeline",
+          "deadline",
+          "database"
+        ],
+        "importance_level": "high",
+        "action_keywords": [
+          "complete",
+          "update",
+          "review",
+          "implement",
+          "schedule"
+        ],
+        "priority_indicators": [
+          {
+            "keyword": "important",
+            "priority": "high",
+            "context": "This is important work"
+          },
+          {
+            "keyword": "soon",
+            "priority": "medium",
+            "context": "Complete this soon"
+          }
+        ],
+        "status_indicators": [
+          {
+            "keyword": "started",
+            "status": "In Progress",
+            "context": "We've already started this"
+          }
+        ],
+        "date_indicators": [
+          {
+            "date": "next week",
+            "text": "due next week",
+            "position": 50
+          }
+        ],
+        "source_reference": "Transcript ID: mock-transcript-3",
+        "extraction_date": "2025-05-12",
+        "extraction_method": "Limitless Lifelog Processor"
+      },
+      "properties": {
+        "Title": {
+          "title": [
+            {
+              "text": {
+                "content": "2025-05-12 | Task from transcript 4"
+              }
+            }
+          ]
+        },
+        "Description": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Thinking about research ideas. Need to organize my ideas and create a structured plan. Should talk t...\n\nTranscript Content:\nThinking about research ideas. Need to organize my ideas and create a structured plan. Should talk to Alex about this next week. Important to complete the initial research by August 15.\n\nKeywords: task, important, project, timeline, deadline, database\n\nImportance Level: high\n\nSource: Transcript mock-transcript-3"
+              }
+            }
+          ]
+        },
+        "Status": {
+          "status": {
+            "name": "Not Started"
+          }
+        },
+        "Priority": {
+          "select": {
+            "name": "High"
+          }
+        },
+        "Created Date": {
+          "date": {
+            "start": "2025-05-12"
+          }
+        },
+        "Due Date": {
+          "date": {
+            "start": "2025-05-16"
+          }
+        },
+        "Assignee": {
+          "select": {
+            "name": "Unassigned"
+          }
+        },
+        "Project": {
+          "select": {
+            "name": "General Tasks"
+          }
+        },
+        "Tags": {
+          "multi_select": [
+            {
+              "name": "Project"
+            },
+            {
+              "name": "Timeline"
+            },
+            {
+              "name": "Deadline"
+            },
+            {
+              "name": "Database"
+            }
+          ]
+        },
+        "Source": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Transcript ID: mock-transcript-3"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "item_id": "meeting-0",
+      "transcript_id": "mock-transcript-0",
+      "transcript_details": {
+        "content": "Project update for the data migration project. We're currently at about 75% completion. Tasks remaining include testing the new database schema and implementing the rollback procedures. We should schedule a review meeting for next Tuesday at 2pm with the team. Also, I need to remember to contact Jane about the server capacity requirements.",
+        "created_at": "2025-05-12 01:33:07",
+        "context": "Extended context for meeting from transcript 1",
+        "keywords": [
+          "meeting",
+          "discussion",
+          "team",
+          "timeline",
+          "product",
+          "rollout"
+        ],
+        "importance_level": "high",
+        "action_keywords": [
+          "discuss",
+          "finalize",
+          "present",
+          "schedule",
+          "coordinate"
+        ],
+        "priority_indicators": [
+          {
+            "keyword": "important",
+            "priority": "high",
+            "context": "Important meeting to attend"
+          }
+        ],
+        "status_indicators": [
+          {
+            "keyword": "scheduled",
+            "status": "Not Started",
+            "context": "Meeting is scheduled"
+          }
+        ],
+        "date_indicators": [
+          {
+            "date": "Thursday",
+            "text": "meeting on Thursday",
+            "position": 30
+          }
+        ],
+        "source_reference": "Transcript ID: mock-transcript-0",
+        "extraction_date": "2025-05-12",
+        "extraction_method": "Limitless Lifelog Processor"
+      },
+      "properties": {
+        "Title": {
+          "title": [
+            {
+              "text": {
+                "content": "2025-05-12 | Meeting: Meeting from transcript 1"
+              }
+            }
+          ]
+        },
+        "Description": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Agenda: Discuss topics from transcript 1\n\nParticipants: Team members\n\nSource: Transcript mock-transcript-0"
+              }
+            }
+          ]
+        },
+        "Status": {
+          "status": {
+            "name": "Not Started"
+          }
+        },
+        "Type": {
+          "select": {
+            "name": "Meeting"
+          }
+        },
+        "Priority": {
+          "select": {
+            "name": "Medium"
+          }
+        },
+        "Created Date": {
+          "date": {
+            "start": "2025-05-12"
+          }
+        },
+        "Due Date": {
+          "date": {
+            "start": "2025-05-14T10:00:00"
+          }
+        },
+        "Meeting Date": {
+          "date": {
+            "start": "2025-05-14T10:00:00"
+          }
+        },
+        "Source": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Transcript ID: mock-transcript-0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "item_id": "meeting-1",
+      "transcript_id": "mock-transcript-1",
+      "transcript_details": {
+        "content": "Notes from the product team meeting. We discussed the new feature rollout timeline. Action items: 1) Marketing team to prepare announcement by Friday, 2) Dev team to fix the remaining bugs by Wednesday, 3) QA to complete final testing by Thursday noon. Next meeting scheduled for Monday at 10am in the main conference room.",
+        "created_at": "2025-05-12 01:33:07",
+        "context": "Extended context for meeting from transcript 2",
+        "keywords": [
+          "meeting",
+          "discussion",
+          "team",
+          "timeline",
+          "product",
+          "rollout"
+        ],
+        "importance_level": "medium",
+        "action_keywords": [
+          "discuss",
+          "finalize",
+          "present",
+          "schedule",
+          "coordinate"
+        ],
+        "priority_indicators": [
+          {
+            "keyword": "important",
+            "priority": "high",
+            "context": "Important meeting to attend"
+          }
+        ],
+        "status_indicators": [
+          {
+            "keyword": "scheduled",
+            "status": "Not Started",
+            "context": "Meeting is scheduled"
+          }
+        ],
+        "date_indicators": [
+          {
+            "date": "Thursday",
+            "text": "meeting on Thursday",
+            "position": 30
+          }
+        ],
+        "source_reference": "Transcript ID: mock-transcript-1",
+        "extraction_date": "2025-05-12",
+        "extraction_method": "Limitless Lifelog Processor"
+      },
+      "properties": {
+        "Title": {
+          "title": [
+            {
+              "text": {
+                "content": "2025-05-12 | Meeting: Meeting from transcript 2"
+              }
+            }
+          ]
+        },
+        "Description": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Agenda: Discuss topics from transcript 2\n\nParticipants: Team members\n\nSource: Transcript mock-transcript-1"
+              }
+            }
+          ]
+        },
+        "Status": {
+          "status": {
+            "name": "Not Started"
+          }
+        },
+        "Type": {
+          "select": {
+            "name": "Meeting"
+          }
+        },
+        "Priority": {
+          "select": {
+            "name": "Medium"
+          }
+        },
+        "Created Date": {
+          "date": {
+            "start": "2025-05-12"
+          }
+        },
+        "Due Date": {
+          "date": {
+            "start": "2025-05-15T10:00:00"
+          }
+        },
+        "Meeting Date": {
+          "date": {
+            "start": "2025-05-15T10:00:00"
+          }
+        },
+        "Source": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Transcript ID: mock-transcript-1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "item_id": "meeting-2",
+      "transcript_id": "mock-transcript-2",
+      "transcript_details": {
+        "content": "Tasks for this week: First, review and sign off on the design documents. Second, prepare the presentation for the client meeting on Thursday. Third, follow up with HR about the new hire paperwork. Finally, don't forget to submit the quarterly report by Friday end of day.",
+        "created_at": "2025-05-12 01:33:07",
+        "context": "Extended context for meeting from transcript 3",
+        "keywords": [
+          "meeting",
+          "discussion",
+          "team",
+          "timeline",
+          "product",
+          "rollout"
+        ],
+        "importance_level": "medium-high",
+        "action_keywords": [
+          "discuss",
+          "finalize",
+          "present",
+          "schedule",
+          "coordinate"
+        ],
+        "priority_indicators": [
+          {
+            "keyword": "important",
+            "priority": "high",
+            "context": "Important meeting to attend"
+          }
+        ],
+        "status_indicators": [
+          {
+            "keyword": "scheduled",
+            "status": "Not Started",
+            "context": "Meeting is scheduled"
+          }
+        ],
+        "date_indicators": [
+          {
+            "date": "Thursday",
+            "text": "meeting on Thursday",
+            "position": 30
+          }
+        ],
+        "source_reference": "Transcript ID: mock-transcript-2",
+        "extraction_date": "2025-05-12",
+        "extraction_method": "Limitless Lifelog Processor"
+      },
+      "properties": {
+        "Title": {
+          "title": [
+            {
+              "text": {
+                "content": "2025-05-12 | Meeting: Meeting from transcript 3"
+              }
+            }
+          ]
+        },
+        "Description": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Agenda: Discuss topics from transcript 3\n\nParticipants: Team members\n\nSource: Transcript mock-transcript-2"
+              }
+            }
+          ]
+        },
+        "Status": {
+          "status": {
+            "name": "Not Started"
+          }
+        },
+        "Type": {
+          "select": {
+            "name": "Meeting"
+          }
+        },
+        "Priority": {
+          "select": {
+            "name": "Medium"
+          }
+        },
+        "Created Date": {
+          "date": {
+            "start": "2025-05-12"
+          }
+        },
+        "Due Date": {
+          "date": {
+            "start": "2025-05-16T10:00:00"
+          }
+        },
+        "Meeting Date": {
+          "date": {
+            "start": "2025-05-16T10:00:00"
+          }
+        },
+        "Source": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Transcript ID: mock-transcript-2"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "projects": [
+    {
+      "item_id": "project-0",
+      "transcript_id": "mock-transcript-0",
+      "transcript_details": {
+        "content": "Project update for the data migration project. We're currently at about 75% completion. Tasks remaining include testing the new database schema and implementing the rollback procedures. We should schedule a review meeting for next Tuesday at 2pm with the team. Also, I need to remember to contact Jane about the server capacity requirements.",
+        "created_at": "2025-05-12 01:33:07",
+        "context": "Extended context for project from transcript 1",
+        "keywords": [
+          "project",
+          "planning",
+          "timeline",
+          "implementation",
+          "budget",
+          "resources"
+        ],
+        "importance_level": "high",
+        "action_keywords": [
+          "launch",
+          "develop",
+          "design",
+          "test",
+          "implement"
+        ],
+        "priority_indicators": [
+          {
+            "keyword": "critical",
+            "priority": "high",
+            "context": "This is a critical project"
+          },
+          {
+            "keyword": "key",
+            "priority": "high",
+            "context": "Key project for Q2"
+          }
+        ],
+        "status_indicators": [
+          {
+            "keyword": "in progress",
+            "status": "In Progress",
+            "context": "Project is in progress"
+          },
+          {
+            "keyword": "started",
+            "status": "In Progress",
+            "context": "We've already started this"
+          }
+        ],
+        "date_indicators": [
+          {
+            "date": "July",
+            "text": "complete by July",
+            "position": 40
+          },
+          {
+            "date": "Q2",
+            "text": "Q2 goal",
+            "position": 60
+          }
+        ],
+        "source_reference": "Transcript ID: mock-transcript-0",
+        "extraction_date": "2025-05-12",
+        "extraction_method": "Limitless Lifelog Processor"
+      },
+      "properties": {
+        "Name": {
+          "title": [
+            {
+              "text": {
+                "content": "2025-05-12 | Project from transcript 1"
+              }
+            }
+          ]
+        },
+        "Description": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Project update for the data migration project. We're currently at about 75% completion. Tasks remain...\n\nTranscript Content:\nProject update for the data migration project. We're currently at about 75% completion. Tasks remaining include testing the new database schema and implementing the rollback procedures. We should schedule a review meeting for next Tuesday at 2pm with the team. Also, I need to remember to contact Jan...\n\nKeywords: project, planning, timeline, implementation, budget, resources\n\nImportance Level: high\n\nSource: Transcript mock-transcript-0"
+              }
+            }
+          ]
+        },
+        "Status": {
+          "select": {
+            "name": "Planning"
+          }
+        },
+        "Priority": {
+          "select": {
+            "name": "Medium"
+          }
+        },
+        "Created Date": {
+          "date": {
+            "start": "2025-05-12"
+          }
+        },
+        "Owner": {
+          "select": {
+            "name": "Unassigned"
+          }
+        },
+        "Completion": {
+          "number": 0
+        },
+        "Timeline": {
+          "date": {
+            "start": "2025-05-12",
+            "end": "2025-06-11"
+          }
+        },
+        "Tags": {
+          "multi_select": [
+            {
+              "name": "Planning"
+            },
+            {
+              "name": "Timeline"
+            },
+            {
+              "name": "Implementation"
+            },
+            {
+              "name": "Budget"
+            },
+            {
+              "name": "Resources"
+            }
+          ]
+        },
+        "Source": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Transcript ID: mock-transcript-0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "item_id": "project-2",
+      "transcript_id": "mock-transcript-2",
+      "transcript_details": {
+        "content": "Tasks for this week: First, review and sign off on the design documents. Second, prepare the presentation for the client meeting on Thursday. Third, follow up with HR about the new hire paperwork. Finally, don't forget to submit the quarterly report by Friday end of day.",
+        "created_at": "2025-05-12 01:33:07",
+        "context": "Extended context for project from transcript 3",
+        "keywords": [
+          "project",
+          "planning",
+          "timeline",
+          "implementation",
+          "budget",
+          "resources"
+        ],
+        "importance_level": "medium-high",
+        "action_keywords": [
+          "launch",
+          "develop",
+          "design",
+          "test",
+          "implement"
+        ],
+        "priority_indicators": [
+          {
+            "keyword": "critical",
+            "priority": "high",
+            "context": "This is a critical project"
+          },
+          {
+            "keyword": "key",
+            "priority": "high",
+            "context": "Key project for Q2"
+          }
+        ],
+        "status_indicators": [
+          {
+            "keyword": "in progress",
+            "status": "In Progress",
+            "context": "Project is in progress"
+          },
+          {
+            "keyword": "started",
+            "status": "In Progress",
+            "context": "We've already started this"
+          }
+        ],
+        "date_indicators": [
+          {
+            "date": "July",
+            "text": "complete by July",
+            "position": 40
+          },
+          {
+            "date": "Q2",
+            "text": "Q2 goal",
+            "position": 60
+          }
+        ],
+        "source_reference": "Transcript ID: mock-transcript-2",
+        "extraction_date": "2025-05-12",
+        "extraction_method": "Limitless Lifelog Processor"
+      },
+      "properties": {
+        "Name": {
+          "title": [
+            {
+              "text": {
+                "content": "2025-05-12 | Project from transcript 3"
+              }
+            }
+          ]
+        },
+        "Description": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Tasks for this week: First, review and sign off on the design documents. Second, prepare the present...\n\nTranscript Content:\nTasks for this week: First, review and sign off on the design documents. Second, prepare the presentation for the client meeting on Thursday. Third, follow up with HR about the new hire paperwork. Finally, don't forget to submit the quarterly report by Friday end of day.\n\nKeywords: project, planning, timeline, implementation, budget, resources\n\nImportance Level: medium-high\n\nSource: Transcript mock-transcript-2"
+              }
+            }
+          ]
+        },
+        "Status": {
+          "select": {
+            "name": "Planning"
+          }
+        },
+        "Priority": {
+          "select": {
+            "name": "Medium"
+          }
+        },
+        "Created Date": {
+          "date": {
+            "start": "2025-05-12"
+          }
+        },
+        "Owner": {
+          "select": {
+            "name": "Unassigned"
+          }
+        },
+        "Completion": {
+          "number": 0
+        },
+        "Timeline": {
+          "date": {
+            "start": "2025-05-12",
+            "end": "2025-06-11"
+          }
+        },
+        "Tags": {
+          "multi_select": [
+            {
+              "name": "Planning"
+            },
+            {
+              "name": "Timeline"
+            },
+            {
+              "name": "Implementation"
+            },
+            {
+              "name": "Budget"
+            },
+            {
+              "name": "Resources"
+            }
+          ]
+        },
+        "Source": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Transcript ID: mock-transcript-2"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "todo": [
+    {
+      "item_id": "task-0",
+      "transcript_id": "mock-transcript-0",
+      "transcript_details": {
+        "content": "Project update for the data migration project. We're currently at about 75% completion. Tasks remaining include testing the new database schema and implementing the rollback procedures. We should schedule a review meeting for next Tuesday at 2pm with the team. Also, I need to remember to contact Jane about the server capacity requirements.",
+        "created_at": "2025-05-12 01:33:07",
+        "context": "Extended context for task from transcript 1",
+        "keywords": [
+          "task",
+          "important",
+          "project",
+          "timeline",
+          "deadline",
+          "database"
+        ],
+        "importance_level": "high",
+        "action_keywords": [
+          "complete",
+          "update",
+          "review",
+          "implement",
+          "schedule"
+        ],
+        "priority_indicators": [
+          {
+            "keyword": "important",
+            "priority": "high",
+            "context": "This is important work"
+          },
+          {
+            "keyword": "soon",
+            "priority": "medium",
+            "context": "Complete this soon"
+          }
+        ],
+        "status_indicators": [
+          {
+            "keyword": "started",
+            "status": "In Progress",
+            "context": "We've already started this"
+          }
+        ],
+        "date_indicators": [
+          {
+            "date": "next week",
+            "text": "due next week",
+            "position": 50
+          }
+        ],
+        "source_reference": "Transcript ID: mock-transcript-0",
+        "extraction_date": "2025-05-12",
+        "extraction_method": "Limitless Lifelog Processor"
+      },
+      "properties": {
+        "Title": {
+          "title": [
+            {
+              "text": {
+                "content": "2025-05-12 | Task from transcript 1"
+              }
+            }
+          ]
+        },
+        "Status": {
+          "checkbox": false
+        },
+        "Priority": {
+          "select": {
+            "name": "High"
+          }
+        },
+        "Created Date": {
+          "date": {
+            "start": "2025-05-12"
+          }
+        },
+        "Due": {
+          "date": {
+            "start": "2025-05-13"
+          }
+        },
+        "Notes": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Project update for the data migration project. We're currently at about 75% completion. Tasks remain...\n\nTranscript Content:\nProject update for the data migration project. We're currently at about 75% completion. Tasks remaining include testing the new database schema and implementing the rollback procedures. We should schedule a review meeting for next Tuesday at 2pm with the team. Also, I need to remember to contact Jan...\n\nKeywords: task, important, project, timeline, deadline, database\n\nImportance Level: high\n\nSource: Transcript mock-transcript-0"
+              }
+            }
+          ]
+        },
+        "Assignee": {
+          "select": {
+            "name": "Unassigned"
+          }
+        },
+        "Progress": {
+          "number": 0
+        },
+        "Project": {
+          "select": {
+            "name": "General Tasks"
+          }
+        },
+        "Tags": {
+          "multi_select": [
+            {
+              "name": "Project"
+            },
+            {
+              "name": "Timeline"
+            },
+            {
+              "name": "Deadline"
+            },
+            {
+              "name": "Database"
+            }
+          ]
+        },
+        "Source": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Transcript ID: mock-transcript-0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "item_id": "task-2",
+      "transcript_id": "mock-transcript-2",
+      "transcript_details": {
+        "content": "Tasks for this week: First, review and sign off on the design documents. Second, prepare the presentation for the client meeting on Thursday. Third, follow up with HR about the new hire paperwork. Finally, don't forget to submit the quarterly report by Friday end of day.",
+        "created_at": "2025-05-12 01:33:07",
+        "context": "Extended context for task from transcript 3",
+        "keywords": [
+          "task",
+          "important",
+          "project",
+          "timeline",
+          "deadline",
+          "database"
+        ],
+        "importance_level": "medium-high",
+        "action_keywords": [
+          "complete",
+          "update",
+          "review",
+          "implement",
+          "schedule"
+        ],
+        "priority_indicators": [
+          {
+            "keyword": "important",
+            "priority": "high",
+            "context": "This is important work"
+          },
+          {
+            "keyword": "soon",
+            "priority": "medium",
+            "context": "Complete this soon"
+          }
+        ],
+        "status_indicators": [
+          {
+            "keyword": "started",
+            "status": "In Progress",
+            "context": "We've already started this"
+          }
+        ],
+        "date_indicators": [
+          {
+            "date": "next week",
+            "text": "due next week",
+            "position": 50
+          }
+        ],
+        "source_reference": "Transcript ID: mock-transcript-2",
+        "extraction_date": "2025-05-12",
+        "extraction_method": "Limitless Lifelog Processor"
+      },
+      "properties": {
+        "Title": {
+          "title": [
+            {
+              "text": {
+                "content": "2025-05-12 | Task from transcript 3"
+              }
+            }
+          ]
+        },
+        "Status": {
+          "checkbox": false
+        },
+        "Priority": {
+          "select": {
+            "name": "Low"
+          }
+        },
+        "Created Date": {
+          "date": {
+            "start": "2025-05-12"
+          }
+        },
+        "Due": {
+          "date": {
+            "start": "2025-05-15"
+          }
+        },
+        "Notes": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Tasks for this week: First, review and sign off on the design documents. Second, prepare the present...\n\nTranscript Content:\nTasks for this week: First, review and sign off on the design documents. Second, prepare the presentation for the client meeting on Thursday. Third, follow up with HR about the new hire paperwork. Finally, don't forget to submit the quarterly report by Friday end of day.\n\nKeywords: task, important, project, timeline, deadline, database\n\nImportance Level: medium-high\n\nSource: Transcript mock-transcript-2"
+              }
+            }
+          ]
+        },
+        "Assignee": {
+          "select": {
+            "name": "Unassigned"
+          }
+        },
+        "Progress": {
+          "number": 0
+        },
+        "Project": {
+          "select": {
+            "name": "General Tasks"
+          }
+        },
+        "Tags": {
+          "multi_select": [
+            {
+              "name": "Project"
+            },
+            {
+              "name": "Timeline"
+            },
+            {
+              "name": "Deadline"
+            },
+            {
+              "name": "Database"
+            }
+          ]
+        },
+        "Source": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Transcript ID: mock-transcript-2"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "item_id": "task-3",
+      "transcript_id": "mock-transcript-3",
+      "transcript_details": {
+        "content": "Thinking about research ideas. Need to organize my ideas and create a structured plan. Should talk to Alex about this next week. Important to complete the initial research by August 15.",
+        "created_at": "2025-05-12 01:33:07",
+        "context": "Extended context for task from transcript 4",
+        "keywords": [
+          "task",
+          "important",
+          "project",
+          "timeline",
+          "deadline",
+          "database"
+        ],
+        "importance_level": "high",
+        "action_keywords": [
+          "complete",
+          "update",
+          "review",
+          "implement",
+          "schedule"
+        ],
+        "priority_indicators": [
+          {
+            "keyword": "important",
+            "priority": "high",
+            "context": "This is important work"
+          },
+          {
+            "keyword": "soon",
+            "priority": "medium",
+            "context": "Complete this soon"
+          }
+        ],
+        "status_indicators": [
+          {
+            "keyword": "started",
+            "status": "In Progress",
+            "context": "We've already started this"
+          }
+        ],
+        "date_indicators": [
+          {
+            "date": "next week",
+            "text": "due next week",
+            "position": 50
+          }
+        ],
+        "source_reference": "Transcript ID: mock-transcript-3",
+        "extraction_date": "2025-05-12",
+        "extraction_method": "Limitless Lifelog Processor"
+      },
+      "properties": {
+        "Title": {
+          "title": [
+            {
+              "text": {
+                "content": "2025-05-12 | Task from transcript 4"
+              }
+            }
+          ]
+        },
+        "Status": {
+          "checkbox": false
+        },
+        "Priority": {
+          "select": {
+            "name": "High"
+          }
+        },
+        "Created Date": {
+          "date": {
+            "start": "2025-05-12"
+          }
+        },
+        "Due": {
+          "date": {
+            "start": "2025-05-16"
+          }
+        },
+        "Notes": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Thinking about research ideas. Need to organize my ideas and create a structured plan. Should talk t...\n\nTranscript Content:\nThinking about research ideas. Need to organize my ideas and create a structured plan. Should talk to Alex about this next week. Important to complete the initial research by August 15.\n\nKeywords: task, important, project, timeline, deadline, database\n\nImportance Level: high\n\nSource: Transcript mock-transcript-3"
+              }
+            }
+          ]
+        },
+        "Assignee": {
+          "select": {
+            "name": "Unassigned"
+          }
+        },
+        "Progress": {
+          "number": 0
+        },
+        "Project": {
+          "select": {
+            "name": "General Tasks"
+          }
+        },
+        "Tags": {
+          "multi_select": [
+            {
+              "name": "Project"
+            },
+            {
+              "name": "Timeline"
+            },
+            {
+              "name": "Deadline"
+            },
+            {
+              "name": "Database"
+            }
+          ]
+        },
+        "Source": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Transcript ID: mock-transcript-3"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "lifelog": [
+    {
+      "properties": {
+        "Entry": {
+          "title": [
+            {
+              "text": {
+                "content": "Processed: 3 tasks, 3 meetings, 2 projects"
+              }
+            }
+          ]
+        },
+        "Date": {
+          "date": {
+            "start": "2025-05-12"
+          }
+        },
+        "Notes": {
+          "rich_text": [
+            {
+              "text": {
+                "content": "Processed 8 total items on 2025-05-12:\n- 3 tasks\n- 3 meetings\n- 2 projects\n\n## Tasks\n- Task from transcript 1 (Priority: High)\n- Task from transcript 3 (Priority: Low)\n- Task from transcript 4 (Priority: High)\n\n## Meetings\n- Meeting from transcript 1 (Date: 2025-05-14)\n- Meeting from transcript 2 (Date: 2025-05-15)\n- Meeting from transcript 3 (Date: 2025-05-16)\n\n## Projects\n- Project from transcript 1 (Status: Planning)\n- Project from transcript 3 (Status: Planning)\n\n## Source Transcripts\n- Transcript ID: mock-transcript-0\n- Transcript ID: mock-transcript-1\n- Transcript ID: mock-transcript-2\n- Transcript ID: mock-transcript-3"
+              }
+            }
+          ]
+        },
+        "Category": {
+          "select": {
+            "name": "Productivity"
+          }
+        },
+        "Mood": {
+          "select": {
+            "name": "Creative"
+          }
+        },
+        "Item Count": {
+          "number": 8
+        },
+        "Tags": {
+          "multi_select": [
+            {
+              "name": "Tasks"
+            },
+            {
+              "name": "Meetings"
+            },
+            {
+              "name": "Projects"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

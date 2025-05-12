@@ -1,0 +1,83 @@
+[
+  {
+    "id": "mock-transcript-0",
+    "timestamp": "2025-05-12T01:33:07.597283",
+    "topic": "project status update",
+    "duration_seconds": 120,
+    "word_count": 150,
+    "content": "Project update for the data migration project. We're currently at about 75% completion. Tasks remaining include testing the new database schema and implementing the rollback procedures. We should schedule a review meeting for next Tuesday at 2pm with the team. Also, I need to remember to contact Jane about the server capacity requirements.",
+    "metadata": {
+      "device_id": "device-0",
+      "location": "home",
+      "tags": [
+        "work",
+        "personal",
+        "planning"
+      ]
+    }
+  },
+  {
+    "id": "mock-transcript-1",
+    "timestamp": "2025-05-10T22:26:07.597311",
+    "topic": "meeting notes",
+    "duration_seconds": 150,
+    "word_count": 170,
+    "content": "Notes from the product team meeting. We discussed the new feature rollout timeline. Action items: 1) Marketing team to prepare announcement by Friday, 2) Dev team to fix the remaining bugs by Wednesday, 3) QA to complete final testing by Thursday noon. Next meeting scheduled for Monday at 10am in the main conference room.",
+    "metadata": {
+      "device_id": "device-1",
+      "location": "office",
+      "tags": [
+        "personal",
+        "planning"
+      ]
+    }
+  },
+  {
+    "id": "mock-transcript-2",
+    "timestamp": "2025-05-09T19:19:07.597326",
+    "topic": "task list",
+    "duration_seconds": 180,
+    "word_count": 190,
+    "content": "Tasks for this week: First, review and sign off on the design documents. Second, prepare the presentation for the client meeting on Thursday. Third, follow up with HR about the new hire paperwork. Finally, don't forget to submit the quarterly report by Friday end of day.",
+    "metadata": {
+      "device_id": "device-2",
+      "location": "coffee shop",
+      "tags": [
+        "planning"
+      ]
+    }
+  },
+  {
+    "id": "mock-transcript-3",
+    "timestamp": "2025-05-08T16:12:07.597336",
+    "topic": "research ideas",
+    "duration_seconds": 210,
+    "word_count": 210,
+    "content": "Thinking about research ideas. Need to organize my ideas and create a structured plan. Should talk to Alex about this next week. Important to complete the initial research by August 15.",
+    "metadata": {
+      "device_id": "device-0",
+      "location": "home",
+      "tags": [
+        "work",
+        "personal",
+        "planning"
+      ]
+    }
+  },
+  {
+    "id": "mock-transcript-4",
+    "timestamp": "2025-05-07T13:05:07.597346",
+    "topic": "personal goals",
+    "duration_seconds": 240,
+    "word_count": 230,
+    "content": "Thinking about personal goals. Need to organize my ideas and create a structured plan. Should talk to Alex about this next week. Important to complete the initial research by August 15.",
+    "metadata": {
+      "device_id": "device-1",
+      "location": "office",
+      "tags": [
+        "personal",
+        "planning"
+      ]
+    }
+  }
+]

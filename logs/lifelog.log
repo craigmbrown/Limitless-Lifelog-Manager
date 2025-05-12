@@ -1,0 +1,1178 @@
+2025-05-11 23:16:21.608 | INFO     | limitless_lifelog.__main__:main:89 - Starting Limitless Lifelog v0.1.0
+2025-05-11 23:16:21.609 | INFO     | limitless_lifelog.__main__:main:102 - Processing transcripts from the past 1 days
+2025-05-11 23:16:24.166 | INFO     | limitless_lifelog.__main__:main:119 - Fetching transcripts from Limitless API
+2025-05-11 23:16:24.227 | ERROR    | limitless_lifelog.limitless.api_client:fetch_transcripts:98 - Error fetching transcripts: HTTPSConnectionPool(host='api.limitless.voice', port=443): Max retries exceeded with url: /v1/transcripts?limit=50&since=2025-05-10T23%3A16%3A21.609047&page=1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x79574d59af60>: Failed to resolve 'api.limitless.voice' ([Errno -2] Name or service not known)"))
+2025-05-11 23:16:24.227 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:109 - Retrieved 0 transcripts
+2025-05-11 23:16:24.228 | INFO     | limitless_lifelog.__main__:main:121 - Retrieved 0 transcripts
+2025-05-11 23:16:24.228 | WARNING  | limitless_lifelog.__main__:main:130 - No transcripts to process
+2025-05-11 23:21:23.724 | INFO     | limitless_lifelog.__main__:main:89 - Starting Limitless Lifelog v0.1.0
+2025-05-11 23:21:23.725 | INFO     | limitless_lifelog.__main__:main:102 - Processing transcripts from the past 1 days
+2025-05-11 23:21:24.727 | INFO     | limitless_lifelog.__main__:main:119 - Fetching transcripts from Limitless API
+2025-05-11 23:21:24.758 | ERROR    | limitless_lifelog.limitless.api_client:fetch_transcripts:98 - Error fetching transcripts: HTTPSConnectionPool(host='api.limitless.voice', port=443): Max retries exceeded with url: /v1/transcripts?limit=50&since=2025-05-10T23%3A21%3A23.725072&page=1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x79ab4a4be3c0>: Failed to resolve 'api.limitless.voice' ([Errno -2] Name or service not known)"))
+2025-05-11 23:21:24.758 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:109 - Retrieved 0 transcripts
+2025-05-11 23:21:24.758 | INFO     | limitless_lifelog.__main__:main:121 - Retrieved 0 transcripts
+2025-05-11 23:21:24.759 | WARNING  | limitless_lifelog.__main__:main:130 - No transcripts to process
+2025-05-11 23:29:58.139 | INFO     | limitless_lifelog.__main__:main:93 - Starting Limitless Lifelog v0.1.0
+2025-05-11 23:29:58.139 | INFO     | limitless_lifelog.__main__:main:111 - Processing transcripts from the past 1 days
+2025-05-11 23:29:59.162 | INFO     | limitless_lifelog.__main__:main:128 - Fetching transcripts from Limitless API
+2025-05-11 23:29:59.213 | ERROR    | limitless_lifelog.limitless.api_client:fetch_transcripts:107 - Error fetching transcripts: HTTPSConnectionPool(host='api.limitless.voice', port=443): Max retries exceeded with url: /v1/transcripts?limit=50&since=2025-05-10T23%3A29%3A58.139768&page=1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x78c35922c560>: Failed to resolve 'api.limitless.voice' ([Errno -2] Name or service not known)"))
+2025-05-11 23:29:59.213 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:118 - Retrieved 0 transcripts
+2025-05-11 23:29:59.213 | INFO     | limitless_lifelog.__main__:main:130 - Retrieved 0 transcripts
+2025-05-11 23:29:59.214 | WARNING  | limitless_lifelog.__main__:main:139 - No transcripts to process
+2025-05-11 23:34:19.759 | INFO     | limitless_lifelog.__main__:main:93 - Starting Limitless Lifelog v0.1.0
+2025-05-11 23:34:19.760 | INFO     | limitless_lifelog.__main__:main:111 - Processing transcripts from the past 1 days
+2025-05-11 23:34:20.733 | INFO     | limitless_lifelog.__main__:main:128 - Fetching transcripts from Limitless API
+2025-05-11 23:34:35.894 | ERROR    | limitless_lifelog.limitless.api_client:fetch_transcripts:111 - Error fetching transcripts: 504 Server Error: Gateway Time-out for url: https://api.limitless.ai/v1/lifelogs/transcripts?limit=50&since=2025-05-10T23%3A34%3A19.760381&page=1
+2025-05-11 23:34:35.894 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:122 - Retrieved 0 transcripts
+2025-05-11 23:34:35.895 | INFO     | limitless_lifelog.__main__:main:130 - Retrieved 0 transcripts
+2025-05-11 23:34:35.895 | WARNING  | limitless_lifelog.__main__:main:139 - No transcripts to process
+2025-05-11 23:42:59.438 | INFO     | limitless_lifelog.__main__:main:105 - Starting Limitless Lifelog v0.1.0
+2025-05-11 23:42:59.438 | INFO     | limitless_lifelog.__main__:main:114 - Using overridden API URL: https://api.limitless.ai/v1/lifelogs
+2025-05-11 23:42:59.439 | INFO     | limitless_lifelog.__main__:main:123 - Processing transcripts from the past 1 days
+2025-05-11 23:43:00.426 | INFO     | limitless_lifelog.__main__:main:145 - Fetching transcripts from Limitless API
+2025-05-11 23:43:00.608 | ERROR    | limitless_lifelog.limitless.api_client:fetch_transcripts:157 - Error fetching transcripts: 401 Client Error: Unauthorized for url: https://api.limitless.ai/v1/lifelogs/transcripts?limit=50&since=2025-05-10T23%3A42%3A59.439075&page=1
+2025-05-11 23:43:00.608 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:174 - Retrieved 0 transcripts
+2025-05-11 23:43:00.608 | INFO     | limitless_lifelog.__main__:main:147 - Retrieved 0 transcripts
+2025-05-11 23:43:00.609 | WARNING  | limitless_lifelog.__main__:main:156 - No transcripts to process
+2025-05-11 23:47:40.851 | INFO     | limitless_lifelog.__main__:main:111 - Starting Limitless Lifelog v0.1.0
+2025-05-11 23:47:40.851 | INFO     | limitless_lifelog.__main__:main:120 - Using overridden API URL: https://api.limitless.ai/v1/lifelogs
+2025-05-11 23:47:40.852 | INFO     | limitless_lifelog.__main__:main:129 - Processing transcripts from the past 1 days
+2025-05-11 23:47:41.832 | INFO     | limitless_lifelog.__main__:main:152 - Fetching transcripts from Limitless API
+2025-05-11 23:47:49.785 | ERROR    | limitless_lifelog.limitless.api_client:fetch_transcripts:168 - Error fetching transcripts: 404 Client Error: Not Found for url: https://api.limitless.ai/v1/lifelogs/transcripts?limit=50&since=2025-05-10T23%3A47%3A40.852463&page=1
+2025-05-11 23:47:49.785 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:197 - Retrieved 0 transcripts
+2025-05-11 23:47:49.785 | INFO     | limitless_lifelog.__main__:main:154 - Retrieved 0 transcripts
+2025-05-11 23:47:49.785 | WARNING  | limitless_lifelog.__main__:main:163 - No transcripts to process
+2025-05-11 23:50:27.205 | INFO     | limitless_lifelog.__main__:main:116 - Starting Limitless Lifelog v0.1.0
+2025-05-11 23:50:27.206 | INFO     | limitless_lifelog.__main__:main:138 - No previous run detected, processing all available transcripts
+2025-05-11 23:50:28.172 | INFO     | limitless_lifelog.__main__:main:158 - Fetching transcripts from Limitless API
+2025-05-11 23:50:28.173 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:99 - Using mock transcript data (mock mode enabled)
+2025-05-11 23:50:28.173 | INFO     | limitless_lifelog.__main__:main:160 - Retrieved 10 transcripts
+2025-05-11 23:50:28.173 | INFO     | limitless_lifelog.__main__:main:173 - Processing 10 transcripts
+2025-05-11 23:50:28.173 | INFO     | limitless_lifelog.__main__:main:175 - 10 transcripts remain after filtering
+2025-05-11 23:51:29.097 | INFO     | limitless_lifelog.__main__:main:116 - Starting Limitless Lifelog v0.1.0
+2025-05-11 23:51:29.097 | INFO     | limitless_lifelog.__main__:main:125 - Using overridden API URL: https://api.limitless.ai/v1/lifelogs
+2025-05-11 23:51:29.097 | INFO     | limitless_lifelog.__main__:main:134 - Processing transcripts from the past 1 days
+2025-05-11 23:51:30.097 | INFO     | limitless_lifelog.__main__:main:158 - Fetching transcripts from Limitless API
+2025-05-11 23:51:36.898 | ERROR    | limitless_lifelog.limitless.api_client:fetch_transcripts:178 - Error fetching transcripts: 404 Client Error: Not Found for url: https://api.limitless.ai/v1/lifelogs/transcripts?limit=50&since=2025-05-10T23%3A51%3A29.097676&page=1
+2025-05-11 23:51:36.899 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:207 - Retrieved 0 transcripts
+2025-05-11 23:51:36.899 | INFO     | limitless_lifelog.__main__:main:160 - Retrieved 0 transcripts
+2025-05-11 23:51:36.899 | WARNING  | limitless_lifelog.__main__:main:169 - No transcripts to process
+2025-05-11 23:58:19.766 | INFO     | limitless_lifelog.__main__:main:116 - Starting Limitless Lifelog v0.1.0
+2025-05-11 23:58:19.767 | INFO     | limitless_lifelog.__main__:main:134 - Processing transcripts from the past 1 days
+2025-05-11 23:58:20.740 | INFO     | limitless_lifelog.__main__:main:158 - Fetching transcripts from Limitless API
+2025-05-11 23:58:23.283 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:216 - Retrieved 25 transcripts
+2025-05-11 23:58:23.283 | INFO     | limitless_lifelog.__main__:main:160 - Retrieved 25 transcripts
+2025-05-11 23:58:23.283 | INFO     | limitless_lifelog.__main__:main:173 - Processing 25 transcripts
+2025-05-11 23:58:23.283 | INFO     | limitless_lifelog.__main__:main:175 - 0 transcripts remain after filtering
+2025-05-11 23:58:23.284 | INFO     | limitless_lifelog.__main__:main:179 - Extracted 0 actionable items
+2025-05-11 23:58:23.284 | INFO     | limitless_lifelog.__main__:main:186 - Updating Notion databases
+2025-05-11 23:58:23.284 | INFO     | limitless_lifelog.__main__:main:188 - Notion update completed: {'created': 0, 'updated': 0, 'failed': 0}
+2025-05-11 23:58:23.284 | INFO     | limitless_lifelog.__main__:main:196 - Updated last run timestamp
+2025-05-11 23:58:23.285 | INFO     | limitless_lifelog.__main__:main:198 - Process completed successfully
+2025-05-11 23:58:57.850 | INFO     | limitless_lifelog.__main__:main:116 - Starting Limitless Lifelog v0.1.0
+2025-05-11 23:58:57.850 | INFO     | limitless_lifelog.__main__:main:134 - Processing transcripts from the past 7 days
+2025-05-11 23:58:58.864 | INFO     | limitless_lifelog.__main__:main:158 - Fetching transcripts from Limitless API
+2025-05-11 23:59:04.302 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:216 - Retrieved 25 transcripts
+2025-05-11 23:59:04.302 | INFO     | limitless_lifelog.__main__:main:160 - Retrieved 25 transcripts
+2025-05-11 23:59:04.302 | INFO     | limitless_lifelog.__main__:main:173 - Processing 25 transcripts
+2025-05-11 23:59:04.302 | INFO     | limitless_lifelog.__main__:main:175 - 0 transcripts remain after filtering
+2025-05-11 23:59:04.303 | INFO     | limitless_lifelog.__main__:main:179 - Extracted 0 actionable items
+2025-05-11 23:59:04.303 | INFO     | limitless_lifelog.__main__:main:186 - Updating Notion databases
+2025-05-11 23:59:04.303 | INFO     | limitless_lifelog.__main__:main:188 - Notion update completed: {'created': 0, 'updated': 0, 'failed': 0}
+2025-05-11 23:59:04.304 | INFO     | limitless_lifelog.__main__:main:196 - Updated last run timestamp
+2025-05-11 23:59:04.304 | INFO     | limitless_lifelog.__main__:main:198 - Process completed successfully
+2025-05-12 00:00:51.196 | INFO     | limitless_lifelog.__main__:main:116 - Starting Limitless Lifelog v0.1.0
+2025-05-12 00:00:51.197 | INFO     | limitless_lifelog.__main__:main:134 - Processing transcripts from the past 7 days
+2025-05-12 00:00:51.198 | DEBUG    | limitless_lifelog.limitless.api_client:__init__:77 - Using authentication method: all
+2025-05-12 00:00:52.193 | INFO     | limitless_lifelog.__main__:main:158 - Fetching transcripts from Limitless API
+2025-05-12 00:00:52.193 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:108 - Using base lifelogs endpoint: https://api.limitless.ai/v1/lifelogs
+2025-05-12 00:00:52.194 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:132 - Fetching page 1 of transcripts from https://api.limitless.ai/v1/lifelogs
+2025-05-12 00:00:57.481 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:143 - Found lifelogs data in API response
+2025-05-12 00:00:57.481 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:216 - Retrieved 25 transcripts
+2025-05-12 00:00:57.481 | INFO     | limitless_lifelog.__main__:main:160 - Retrieved 25 transcripts
+2025-05-12 00:00:57.481 | INFO     | limitless_lifelog.__main__:main:173 - Processing 25 transcripts
+2025-05-12 00:00:57.481 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: gNO38fAnFlivybCjZeEm
+2025-05-12 00:00:57.482 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: TjI24qUdpekQSXnLL1dS
+2025-05-12 00:00:57.482 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: xFrfLw3A97JKo1mIiZ3S
+2025-05-12 00:00:57.482 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: BdmUbEwbXW5a6yjX3GC5
+2025-05-12 00:00:57.482 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: jmDycGGHctOkFi24lZRV
+2025-05-12 00:00:57.482 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: MXTnkGWy6GqdsweCclOF
+2025-05-12 00:00:57.482 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: F2xWAcUUcRSx6CtA7chh
+2025-05-12 00:00:57.482 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: ITsKNxCBPRQG6BTUGme0
+2025-05-12 00:00:57.482 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: c1CZ7FNPGZGxWxmIM5P5
+2025-05-12 00:00:57.482 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: pItKcwxNsbqhj3VEHnpp
+2025-05-12 00:00:57.483 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: ZzbFCyQvK0fjg94iRYl9
+2025-05-12 00:00:57.483 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: Wvjzz6AQQrQFcQqymnox
+2025-05-12 00:00:57.483 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: iyvfmLmTRweif5fqMq3Z
+2025-05-12 00:00:57.483 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: fdz1mR0eaIQX8oXhKyVs
+2025-05-12 00:00:57.483 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: RnzPRpctZw96cVnaTVD2
+2025-05-12 00:00:57.483 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: rryZ80J31AG9i0ry20iS
+2025-05-12 00:00:57.483 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: fI3SDfAzIq8JmKHwG4t9
+2025-05-12 00:00:57.483 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: RyQUlUabZq9AnVczUXt2
+2025-05-12 00:00:57.483 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: cgh2IIiZRcp9U725Wo2b
+2025-05-12 00:00:57.483 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: T6gJWR3NhACUYayw0KZ7
+2025-05-12 00:00:57.484 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: AyLdZLP2xQWOGxoRpue5
+2025-05-12 00:00:57.484 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: jTg9UJVqgWICSSLB18xe
+2025-05-12 00:00:57.484 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: 7rPfC0uPrNm3w7qpyUwl
+2025-05-12 00:00:57.484 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: oTeZtURiKw2m5gmSZdvY
+2025-05-12 00:00:57.484 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:56 - Skipping empty transcript: TtfDxVhaU4pw34kTFScg
+2025-05-12 00:00:57.484 | INFO     | limitless_lifelog.__main__:main:175 - 0 transcripts remain after filtering
+2025-05-12 00:00:57.484 | INFO     | limitless_lifelog.__main__:main:179 - Extracted 0 actionable items
+2025-05-12 00:00:57.484 | INFO     | limitless_lifelog.__main__:main:186 - Updating Notion databases
+2025-05-12 00:00:57.484 | INFO     | limitless_lifelog.__main__:main:188 - Notion update completed: {'created': 0, 'updated': 0, 'failed': 0}
+2025-05-12 00:00:57.485 | INFO     | limitless_lifelog.__main__:main:196 - Updated last run timestamp
+2025-05-12 00:00:57.485 | INFO     | limitless_lifelog.__main__:main:198 - Process completed successfully
+2025-05-12 00:04:43.239 | INFO     | limitless_lifelog.__main__:main:121 - Starting Limitless Lifelog v0.1.0
+2025-05-12 00:04:43.239 | INFO     | limitless_lifelog.__main__:main:139 - Processing transcripts from the past 7 days
+2025-05-12 00:04:43.240 | DEBUG    | limitless_lifelog.limitless.api_client:__init__:77 - Using authentication method: all
+2025-05-12 00:04:44.255 | INFO     | limitless_lifelog.__main__:main:163 - Fetching transcripts from Limitless API
+2025-05-12 00:04:44.255 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:108 - Using base lifelogs endpoint: https://api.limitless.ai/v1/lifelogs
+2025-05-12 00:04:44.255 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:132 - Fetching page 1 of transcripts from https://api.limitless.ai/v1/lifelogs
+2025-05-12 00:05:18.642 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:143 - Found lifelogs data in API response
+2025-05-12 00:05:18.642 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:148 - First transcript keys: ['contents', 'id', 'markdown', 'title', 'startTime', 'endTime']
+2025-05-12 00:05:18.643 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:162 - Processed first transcript content: Conversation shifts to running a model locally to avoid charges....
+2025-05-12 00:05:18.643 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:234 - Retrieved 25 transcripts
+2025-05-12 00:05:18.643 | INFO     | limitless_lifelog.__main__:main:165 - Retrieved 25 transcripts
+2025-05-12 00:05:18.643 | INFO     | limitless_lifelog.__main__:main:178 - Processing 25 transcripts
+2025-05-12 00:05:18.643 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:83 - Found action keyword 'call' in transcript gNO38fAnFlivybCjZeEm
+2025-05-12 00:05:18.644 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:87 - Transcript gNO38fAnFlivybCjZeEm content: Conversation shifts to running a model locally to avoid charges....
+2025-05-12 00:05:18.644 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:93 - Including relevant transcript: gNO38fAnFlivybCjZeEm
+2025-05-12 00:05:18.644 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:87 - Transcript TjI24qUdpekQSXnLL1dS content: A discussion about love, patience, the studio game, watching something for 50 years, a number 27, pants, a series on Friday, a first pitch, showing the kitchen, and putting something on the table....
+2025-05-12 00:05:18.644 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:93 - Including relevant transcript: TjI24qUdpekQSXnLL1dS
+2025-05-12 00:05:18.644 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:75 - Skipping short transcript: xFrfLw3A97JKo1mIiZ3S
+2025-05-12 00:05:18.644 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:87 - Transcript BdmUbEwbXW5a6yjX3GC5 content: Commentary on a motorcycle race, focusing on rider positions, tire strategies, and potential outcomes....
+2025-05-12 00:05:18.644 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:93 - Including relevant transcript: BdmUbEwbXW5a6yjX3GC5
+2025-05-12 00:05:18.645 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:87 - Transcript jmDycGGHctOkFi24lZRV content: Conversation shifts to a discussion about physical intimacy and emotional connection....
+2025-05-12 00:05:18.645 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:93 - Including relevant transcript: jmDycGGHctOkFi24lZRV
+2025-05-12 00:05:18.645 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:75 - Skipping short transcript: MXTnkGWy6GqdsweCclOF
+2025-05-12 00:05:18.645 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:87 - Transcript F2xWAcUUcRSx6CtA7chh content: Commentary on a motorcycle race, covering the initial start, penalties, and a crash....
+2025-05-12 00:05:18.645 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:93 - Including relevant transcript: F2xWAcUUcRSx6CtA7chh
+2025-05-12 00:05:18.645 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:83 - Found action keyword 'action' in transcript ITsKNxCBPRQG6BTUGme0
+2025-05-12 00:05:18.645 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:87 - Transcript ITsKNxCBPRQG6BTUGme0 content: Someone explains how to provide feedback while watching videos, then the speakers discuss various topics including rules, reactions to content, and a show release....
+2025-05-12 00:05:18.645 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:93 - Including relevant transcript: ITsKNxCBPRQG6BTUGme0
+2025-05-12 00:05:18.646 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:87 - Transcript c1CZ7FNPGZGxWxmIM5P5 content: Brief, unrelated comments after a period of silence....
+2025-05-12 00:05:18.646 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:93 - Including relevant transcript: c1CZ7FNPGZGxWxmIM5P5
+2025-05-12 00:05:18.646 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:87 - Transcript pItKcwxNsbqhj3VEHnpp content: A user asks questions about Power Automate, file renaming, and running automations....
+2025-05-12 00:05:18.646 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:93 - Including relevant transcript: pItKcwxNsbqhj3VEHnpp
+2025-05-12 00:05:18.646 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:87 - Transcript ZzbFCyQvK0fjg94iRYl9 content: Commentary on the upcoming MotoGP race at Le Mans, including weather conditions and rider preparations....
+2025-05-12 00:05:18.646 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:93 - Including relevant transcript: ZzbFCyQvK0fjg94iRYl9
+2025-05-12 00:05:18.646 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:87 - Transcript Wvjzz6AQQrQFcQqymnox content: Commentators discuss the challenging weather conditions and the riders' preparations for the upcoming race....
+2025-05-12 00:05:18.646 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:93 - Including relevant transcript: Wvjzz6AQQrQFcQqymnox
+2025-05-12 00:05:18.647 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:83 - Found action keyword 'check' in transcript iyvfmLmTRweif5fqMq3Z
+2025-05-12 00:05:18.647 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:87 - Transcript iyvfmLmTRweif5fqMq3Z content: The conversation shifts to checking in on someone and a discussion about physical affection....
+2025-05-12 00:05:18.647 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:93 - Including relevant transcript: iyvfmLmTRweif5fqMq3Z
+2025-05-12 00:05:18.647 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:87 - Transcript fdz1mR0eaIQX8oXhKyVs content: Brief conversation followed by discussion about relaxation and driving....
+2025-05-12 00:05:18.647 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:93 - Including relevant transcript: fdz1mR0eaIQX8oXhKyVs
+2025-05-12 00:05:18.647 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:87 - Transcript RnzPRpctZw96cVnaTVD2 content: Discussion about motorsports racing at Le Mans and the French Grand Prix....
+2025-05-12 00:05:18.647 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:93 - Including relevant transcript: RnzPRpctZw96cVnaTVD2
+2025-05-12 00:05:18.647 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:75 - Skipping short transcript: rryZ80J31AG9i0ry20iS
+2025-05-12 00:05:18.648 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:75 - Skipping short transcript: fI3SDfAzIq8JmKHwG4t9
+2025-05-12 00:05:18.648 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:87 - Transcript RyQUlUabZq9AnVczUXt2 content: Conversation shifts to discussing friends and social connections....
+2025-05-12 00:05:18.648 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:93 - Including relevant transcript: RyQUlUabZq9AnVczUXt2
+2025-05-12 00:05:18.648 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:87 - Transcript cgh2IIiZRcp9U725Wo2b content: Conversation shifts to family inquiries about having children and marriage....
+2025-05-12 00:05:18.648 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:93 - Including relevant transcript: cgh2IIiZRcp9U725Wo2b
+2025-05-12 00:05:18.648 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:87 - Transcript T6gJWR3NhACUYayw0KZ7 content: Catching up and discussing business ventures, including challenges with space and insurance....
+2025-05-12 00:05:18.648 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:93 - Including relevant transcript: T6gJWR3NhACUYayw0KZ7
+2025-05-12 00:05:18.648 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:75 - Skipping short transcript: AyLdZLP2xQWOGxoRpue5
+2025-05-12 00:05:18.649 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:87 - Transcript jTg9UJVqgWICSSLB18xe content: Discussing a restaurant order and remote work aspirations....
+2025-05-12 00:05:18.649 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:93 - Including relevant transcript: jTg9UJVqgWICSSLB18xe
+2025-05-12 00:05:18.649 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:83 - Found action keyword 'plan' in transcript 7rPfC0uPrNm3w7qpyUwl
+2025-05-12 00:05:18.649 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:87 - Transcript 7rPfC0uPrNm3w7qpyUwl content: Discussing Mother's Day plans and having a beer outside....
+2025-05-12 00:05:18.649 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:93 - Including relevant transcript: 7rPfC0uPrNm3w7qpyUwl
+2025-05-12 00:05:18.649 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:87 - Transcript oTeZtURiKw2m5gmSZdvY content: A customer recounts their busy Mother's Day weekend travels and activities....
+2025-05-12 00:05:18.649 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:93 - Including relevant transcript: oTeZtURiKw2m5gmSZdvY
+2025-05-12 00:05:18.649 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:83 - Found action keyword 'review' in transcript TtfDxVhaU4pw34kTFScg
+2025-05-12 00:05:18.649 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:87 - Transcript TtfDxVhaU4pw34kTFScg content: A customer discusses their dietary habits, then is asked to leave a review and discusses the importance of reviews for businesses....
+2025-05-12 00:05:18.650 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:93 - Including relevant transcript: TtfDxVhaU4pw34kTFScg
+2025-05-12 00:05:18.650 | INFO     | limitless_lifelog.__main__:main:199 - 20 transcripts remain after filtering
+2025-05-12 00:07:56.084 | INFO     | limitless_lifelog.__main__:main:203 - Extracted 6 actionable items
+2025-05-12 00:07:56.085 | INFO     | limitless_lifelog.__main__:main:210 - Updating Notion databases
+2025-05-12 00:07:56.085 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 4 entries for tasks database
+2025-05-12 00:07:56.537 | ERROR    | limitless_lifelog.notion.client:update_databases:85 - Error creating Notion entry: Title is not a property that exists. Description is not a property that exists. Project is expected to be relation.
+2025-05-12 00:07:56.999 | ERROR    | limitless_lifelog.notion.client:update_databases:85 - Error creating Notion entry: Title is not a property that exists. Description is not a property that exists. Project is expected to be relation.
+2025-05-12 00:07:58.041 | ERROR    | limitless_lifelog.notion.client:update_databases:85 - Error creating Notion entry: Title is not a property that exists. Description is not a property that exists. Type is not a property that exists. Due Date is not a property that exists.
+2025-05-12 00:07:59.008 | ERROR    | limitless_lifelog.notion.client:update_databases:85 - Error creating Notion entry: Title is not a property that exists. Description is not a property that exists. Type is not a property that exists.
+2025-05-12 00:07:59.308 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 2 entries for projects database
+2025-05-12 00:07:59.712 | ERROR    | limitless_lifelog.notion.client:update_databases:85 - Error creating Notion entry: Name is not a property that exists. Description is not a property that exists. Status is expected to be status.
+2025-05-12 00:08:00.514 | ERROR    | limitless_lifelog.notion.client:update_databases:85 - Error creating Notion entry: Name is not a property that exists. Description is not a property that exists. Status is expected to be status.
+2025-05-12 00:08:00.814 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 2 entries for todo database
+2025-05-12 00:08:00.973 | ERROR    | limitless_lifelog.notion.client:update_databases:85 - Error creating Notion entry: Title is not a property that exists. Status is expected to be status.
+2025-05-12 00:08:02.417 | ERROR    | limitless_lifelog.notion.client:update_databases:85 - Error creating Notion entry: Title is not a property that exists. Status is expected to be status.
+2025-05-12 00:08:02.718 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 1 entries for lifelog database
+2025-05-12 00:08:03.685 | ERROR    | limitless_lifelog.notion.client:update_databases:85 - Error creating Notion entry: Entry is not a property that exists. Date is not a property that exists. Notes is not a property that exists. Category is not a property that exists. Mood is not a property that exists.
+2025-05-12 00:08:03.986 | INFO     | limitless_lifelog.__main__:main:212 - Notion update completed: {'created': 0, 'updated': 0, 'failed': 9}
+2025-05-12 00:08:03.987 | INFO     | limitless_lifelog.__main__:main:220 - Updated last run timestamp
+2025-05-12 00:08:03.987 | INFO     | limitless_lifelog.__main__:main:222 - Process completed successfully
+2025-05-12 00:14:50.390 | INFO     | limitless_lifelog.__main__:main:126 - Starting Limitless Lifelog v0.1.0
+2025-05-12 00:14:50.391 | INFO     | limitless_lifelog.__main__:main:144 - Processing transcripts from the past 7 days
+2025-05-12 00:14:50.391 | DEBUG    | limitless_lifelog.limitless.api_client:__init__:77 - Using authentication method: all
+2025-05-12 00:14:51.348 | INFO     | limitless_lifelog.__main__:main:168 - Fetching transcripts from Limitless API
+2025-05-12 00:14:51.348 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:108 - Using base lifelogs endpoint: https://api.limitless.ai/v1/lifelogs
+2025-05-12 00:14:51.348 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:132 - Fetching page 1 of transcripts from https://api.limitless.ai/v1/lifelogs
+2025-05-12 00:15:04.418 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:143 - Found lifelogs data in API response
+2025-05-12 00:15:04.419 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:148 - First transcript keys: ['contents', 'id', 'markdown', 'title', 'startTime', 'endTime']
+2025-05-12 00:15:04.419 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:162 - Processed first transcript content: Conversation shifts to running a model locally to avoid charges....
+2025-05-12 00:15:04.419 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:234 - Retrieved 25 transcripts
+2025-05-12 00:15:04.419 | INFO     | limitless_lifelog.__main__:main:170 - Retrieved 25 transcripts
+2025-05-12 00:15:04.419 | INFO     | limitless_lifelog.__main__:main:183 - Processing 25 transcripts
+2025-05-12 00:15:04.420 | DEBUG    | limitless_lifelog.transcripts.processor:set_archive_dir:39 - Set archive directory to: ./transcripts_archive
+2025-05-12 00:15:04.459 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:102 - Found action keyword 'call' in transcript gNO38fAnFlivybCjZeEm
+2025-05-12 00:15:04.460 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:133 - Transcript gNO38fAnFlivybCjZeEm content: Conversation shifts to running a model locally to avoid charges....
+2025-05-12 00:15:04.460 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:139 - Including relevant transcript: gNO38fAnFlivybCjZeEm
+2025-05-12 00:15:04.460 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:133 - Transcript TjI24qUdpekQSXnLL1dS content: A discussion about love, patience, the studio game, watching something for 50 years, a number 27, pants, a series on Friday, a first pitch, showing the kitchen, and putting something on the table....
+2025-05-12 00:15:04.460 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:139 - Including relevant transcript: TjI24qUdpekQSXnLL1dS
+2025-05-12 00:15:04.460 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:90 - Skipping short transcript: xFrfLw3A97JKo1mIiZ3S
+2025-05-12 00:15:04.460 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:133 - Transcript BdmUbEwbXW5a6yjX3GC5 content: Commentary on a motorcycle race, focusing on rider positions, tire strategies, and potential outcomes....
+2025-05-12 00:15:04.460 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:139 - Including relevant transcript: BdmUbEwbXW5a6yjX3GC5
+2025-05-12 00:15:04.461 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:133 - Transcript jmDycGGHctOkFi24lZRV content: Conversation shifts to a discussion about physical intimacy and emotional connection....
+2025-05-12 00:15:04.461 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:139 - Including relevant transcript: jmDycGGHctOkFi24lZRV
+2025-05-12 00:15:04.461 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:90 - Skipping short transcript: MXTnkGWy6GqdsweCclOF
+2025-05-12 00:15:04.461 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:133 - Transcript F2xWAcUUcRSx6CtA7chh content: Commentary on a motorcycle race, covering the initial start, penalties, and a crash....
+2025-05-12 00:15:04.461 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:139 - Including relevant transcript: F2xWAcUUcRSx6CtA7chh
+2025-05-12 00:15:04.461 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:102 - Found action keyword 'action' in transcript ITsKNxCBPRQG6BTUGme0
+2025-05-12 00:15:04.462 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:133 - Transcript ITsKNxCBPRQG6BTUGme0 content: Someone explains how to provide feedback while watching videos, then the speakers discuss various topics including rules, reactions to content, and a show release....
+2025-05-12 00:15:04.462 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:139 - Including relevant transcript: ITsKNxCBPRQG6BTUGme0
+2025-05-12 00:15:04.462 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:133 - Transcript c1CZ7FNPGZGxWxmIM5P5 content: Brief, unrelated comments after a period of silence....
+2025-05-12 00:15:04.462 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:139 - Including relevant transcript: c1CZ7FNPGZGxWxmIM5P5
+2025-05-12 00:15:04.462 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:133 - Transcript pItKcwxNsbqhj3VEHnpp content: A user asks questions about Power Automate, file renaming, and running automations....
+2025-05-12 00:15:04.462 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:139 - Including relevant transcript: pItKcwxNsbqhj3VEHnpp
+2025-05-12 00:15:04.462 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:133 - Transcript ZzbFCyQvK0fjg94iRYl9 content: Commentary on the upcoming MotoGP race at Le Mans, including weather conditions and rider preparations....
+2025-05-12 00:15:04.463 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:139 - Including relevant transcript: ZzbFCyQvK0fjg94iRYl9
+2025-05-12 00:15:04.463 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:133 - Transcript Wvjzz6AQQrQFcQqymnox content: Commentators discuss the challenging weather conditions and the riders' preparations for the upcoming race....
+2025-05-12 00:15:04.463 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:139 - Including relevant transcript: Wvjzz6AQQrQFcQqymnox
+2025-05-12 00:15:04.463 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:102 - Found action keyword 'check' in transcript iyvfmLmTRweif5fqMq3Z
+2025-05-12 00:15:04.463 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:133 - Transcript iyvfmLmTRweif5fqMq3Z content: The conversation shifts to checking in on someone and a discussion about physical affection....
+2025-05-12 00:15:04.463 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:139 - Including relevant transcript: iyvfmLmTRweif5fqMq3Z
+2025-05-12 00:15:04.463 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:133 - Transcript fdz1mR0eaIQX8oXhKyVs content: Brief conversation followed by discussion about relaxation and driving....
+2025-05-12 00:15:04.464 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:139 - Including relevant transcript: fdz1mR0eaIQX8oXhKyVs
+2025-05-12 00:15:04.464 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:133 - Transcript RnzPRpctZw96cVnaTVD2 content: Discussion about motorsports racing at Le Mans and the French Grand Prix....
+2025-05-12 00:15:04.464 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:139 - Including relevant transcript: RnzPRpctZw96cVnaTVD2
+2025-05-12 00:15:04.465 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:90 - Skipping short transcript: rryZ80J31AG9i0ry20iS
+2025-05-12 00:15:04.465 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:90 - Skipping short transcript: fI3SDfAzIq8JmKHwG4t9
+2025-05-12 00:15:04.465 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:133 - Transcript RyQUlUabZq9AnVczUXt2 content: Conversation shifts to discussing friends and social connections....
+2025-05-12 00:15:04.465 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:139 - Including relevant transcript: RyQUlUabZq9AnVczUXt2
+2025-05-12 00:15:04.465 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:133 - Transcript cgh2IIiZRcp9U725Wo2b content: Conversation shifts to family inquiries about having children and marriage....
+2025-05-12 00:15:04.466 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:139 - Including relevant transcript: cgh2IIiZRcp9U725Wo2b
+2025-05-12 00:15:04.466 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:133 - Transcript T6gJWR3NhACUYayw0KZ7 content: Catching up and discussing business ventures, including challenges with space and insurance....
+2025-05-12 00:15:04.466 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:139 - Including relevant transcript: T6gJWR3NhACUYayw0KZ7
+2025-05-12 00:15:04.466 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:90 - Skipping short transcript: AyLdZLP2xQWOGxoRpue5
+2025-05-12 00:15:04.466 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:133 - Transcript jTg9UJVqgWICSSLB18xe content: Discussing a restaurant order and remote work aspirations....
+2025-05-12 00:15:04.466 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:139 - Including relevant transcript: jTg9UJVqgWICSSLB18xe
+2025-05-12 00:15:04.467 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:102 - Found action keyword 'plan' in transcript 7rPfC0uPrNm3w7qpyUwl
+2025-05-12 00:15:04.467 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:133 - Transcript 7rPfC0uPrNm3w7qpyUwl content: Discussing Mother's Day plans and having a beer outside....
+2025-05-12 00:15:04.467 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:139 - Including relevant transcript: 7rPfC0uPrNm3w7qpyUwl
+2025-05-12 00:15:04.467 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:133 - Transcript oTeZtURiKw2m5gmSZdvY content: A customer recounts their busy Mother's Day weekend travels and activities....
+2025-05-12 00:15:04.467 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:139 - Including relevant transcript: oTeZtURiKw2m5gmSZdvY
+2025-05-12 00:15:04.467 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:102 - Found action keyword 'review' in transcript TtfDxVhaU4pw34kTFScg
+2025-05-12 00:15:04.468 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:133 - Transcript TtfDxVhaU4pw34kTFScg content: A customer discusses their dietary habits, then is asked to leave a review and discusses the importance of reviews for businesses....
+2025-05-12 00:15:04.468 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:139 - Including relevant transcript: TtfDxVhaU4pw34kTFScg
+2025-05-12 00:15:04.468 | INFO     | limitless_lifelog.__main__:main:208 - 20 transcripts remain after filtering
+2025-05-12 00:17:25.952 | INFO     | limitless_lifelog.__main__:main:212 - Extracted 9 actionable items
+2025-05-12 00:17:25.952 | INFO     | limitless_lifelog.__main__:main:219 - Updating Notion databases
+2025-05-12 00:17:25.952 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 5 entries for tasks database
+2025-05-12 00:17:26.300 | DEBUG    | limitless_lifelog.notion.client:update_databases:73 - Database tasks has properties: ['Delay', 'Completed on', 'Task name', 'Tags', 'Assignee', 'Status', 'Due', 'Priority', 'Sub-tasks', 'Parent-task', 'Project']
+2025-05-12 00:17:26.300 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:257 - Mapped title property 'Title' to 'Task name'
+2025-05-12 00:17:26.300 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:227 - Converting select to empty relation for property 'Project'
+2025-05-12 00:17:29.765 | DEBUG    | limitless_lifelog.notion.client:_add_comment:122 - Added comment to page 1f1e1347-4afd-81fe-a2ca-e8f5fe72e157
+2025-05-12 00:17:30.065 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:257 - Mapped title property 'Title' to 'Task name'
+2025-05-12 00:17:30.066 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:227 - Converting select to empty relation for property 'Project'
+2025-05-12 00:17:34.075 | DEBUG    | limitless_lifelog.notion.client:_add_comment:122 - Added comment to page 1f1e1347-4afd-81a6-a161-f0399e10b401
+2025-05-12 00:17:34.375 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:257 - Mapped title property 'Title' to 'Task name'
+2025-05-12 00:17:34.376 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:227 - Converting select to empty relation for property 'Project'
+2025-05-12 00:17:38.837 | DEBUG    | limitless_lifelog.notion.client:_add_comment:122 - Added comment to page 1f1e1347-4afd-8141-93fc-c9c09c06b8b4
+2025-05-12 00:17:39.138 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:257 - Mapped title property 'Title' to 'Task name'
+2025-05-12 00:17:40.452 | DEBUG    | limitless_lifelog.notion.client:_add_comment:122 - Added comment to page 1f1e1347-4afd-812f-a0bc-c61f343668e4
+2025-05-12 00:17:40.753 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:257 - Mapped title property 'Title' to 'Task name'
+2025-05-12 00:17:41.589 | DEBUG    | limitless_lifelog.notion.client:_add_comment:122 - Added comment to page 1f1e1347-4afd-810f-865b-e74408e5c8e2
+2025-05-12 00:17:41.889 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 3 entries for projects database
+2025-05-12 00:17:42.091 | DEBUG    | limitless_lifelog.notion.client:update_databases:73 - Database projects has properties: ['Sign off project?', 'Project name', 'Owner', 'Status', 'Completion', 'Priority', 'Dates', 'Summary', 'Tasks', 'Is Blocking', 'Blocked By']
+2025-05-12 00:17:42.091 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:257 - Mapped title property 'Name' to 'Project name'
+2025-05-12 00:17:42.091 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:245 - Using default status 'Planning' for property 'Status'
+2025-05-12 00:17:42.913 | DEBUG    | limitless_lifelog.notion.client:_add_comment:122 - Added comment to page 1f1e1347-4afd-8117-b33a-f36123fb20e6
+2025-05-12 00:17:43.214 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:257 - Mapped title property 'Name' to 'Project name'
+2025-05-12 00:17:43.214 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:245 - Using default status 'Planning' for property 'Status'
+2025-05-12 00:17:45.274 | DEBUG    | limitless_lifelog.notion.client:_add_comment:122 - Added comment to page 1f1e1347-4afd-81af-bcb1-c4d359a461c5
+2025-05-12 00:17:45.574 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:257 - Mapped title property 'Name' to 'Project name'
+2025-05-12 00:17:45.574 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:245 - Using default status 'Planning' for property 'Status'
+2025-05-12 00:17:51.708 | DEBUG    | limitless_lifelog.notion.client:_add_comment:122 - Added comment to page 1f1e1347-4afd-8112-ba0d-f96f00d0e771
+2025-05-12 00:17:52.008 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 4 entries for todo database
+2025-05-12 00:17:52.218 | DEBUG    | limitless_lifelog.notion.client:update_databases:73 - Database todo has properties: ['To-Do Completion', 'Days remaining', 'Status', 'Multi-select', 'Due date', 'Priority', 'Name']
+2025-05-12 00:17:52.219 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:257 - Mapped title property 'Title' to 'Name'
+2025-05-12 00:17:52.943 | DEBUG    | limitless_lifelog.notion.client:_add_comment:122 - Added comment to page 1f1e1347-4afd-81e0-8fdc-d36028317e28
+2025-05-12 00:17:53.243 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:257 - Mapped title property 'Title' to 'Name'
+2025-05-12 00:17:54.108 | DEBUG    | limitless_lifelog.notion.client:_add_comment:122 - Added comment to page 1f1e1347-4afd-8197-81ac-edc5ba7529b2
+2025-05-12 00:17:54.408 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:257 - Mapped title property 'Title' to 'Name'
+2025-05-12 00:18:00.821 | DEBUG    | limitless_lifelog.notion.client:_add_comment:122 - Added comment to page 1f1e1347-4afd-8115-b9e7-edac13dd1857
+2025-05-12 00:18:01.122 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:257 - Mapped title property 'Title' to 'Name'
+2025-05-12 00:18:02.587 | DEBUG    | limitless_lifelog.notion.client:_add_comment:122 - Added comment to page 1f1e1347-4afd-8109-8af7-cb94a6966774
+2025-05-12 00:18:02.887 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 1 entries for lifelog database
+2025-05-12 00:18:08.038 | DEBUG    | limitless_lifelog.notion.client:update_databases:73 - Database lifelog has properties: ['Description', 'Assignee', 'Due Date', 'Priority', 'Tags', 'Status', 'Type', 'Name']
+2025-05-12 00:18:08.038 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:257 - Mapped title property 'Entry' to 'Name'
+2025-05-12 00:18:12.460 | INFO     | limitless_lifelog.__main__:main:221 - Notion update completed: {'created': 13, 'updated': 0, 'failed': 0}
+2025-05-12 00:18:12.461 | INFO     | limitless_lifelog.__main__:main:229 - Updated last run timestamp
+2025-05-12 00:18:12.461 | INFO     | limitless_lifelog.__main__:main:231 - Process completed successfully
+2025-05-12 00:27:56.002 | INFO     | __main__:main:126 - Starting Limitless Lifelog v0.1.0
+2025-05-12 00:27:56.003 | INFO     | __main__:main:146 - Processing transcripts since 2025-05-12 00:18:12.460849
+2025-05-12 00:27:56.003 | DEBUG    | limitless_lifelog.limitless.api_client:__init__:77 - Using authentication method: all
+2025-05-12 00:27:57.196 | INFO     | __main__:main:168 - Fetching transcripts from Limitless API
+2025-05-12 00:27:57.196 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:99 - Using mock transcript data (mock mode enabled)
+2025-05-12 00:27:57.196 | INFO     | __main__:main:170 - Retrieved 10 transcripts
+2025-05-12 00:27:57.196 | INFO     | __main__:main:183 - Processing 10 transcripts
+2025-05-12 00:27:57.196 | DEBUG    | limitless_lifelog.transcripts.processor:set_archive_dir:39 - Set archive directory to: ./transcripts_archive
+2025-05-12 00:27:57.247 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'task' in transcript mock-transcript-0
+2025-05-12 00:27:57.247 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript mock-transcript-0 content: Project update for the data migration project. We're currently at about 75% completion. Tasks remaining include testing the new database schema and implementing the rollback procedures. We should sche...
+2025-05-12 00:27:57.247 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: mock-transcript-0
+2025-05-12 00:27:57.247 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'action' in transcript mock-transcript-1
+2025-05-12 00:27:57.247 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript mock-transcript-1 content: Notes from the product team meeting. We discussed the new feature rollout timeline. Action items: 1) Marketing team to prepare announcement by Friday, 2) Dev team to fix the remaining bugs by Wednesda...
+2025-05-12 00:27:57.248 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: mock-transcript-1
+2025-05-12 00:27:57.248 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'task' in transcript mock-transcript-2
+2025-05-12 00:27:57.248 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript mock-transcript-2 content: Tasks for this week: First, review and sign off on the design documents. Second, prepare the presentation for the client meeting on Thursday. Third, follow up with HR about the new hire paperwork. Fin...
+2025-05-12 00:27:57.248 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: mock-transcript-2
+2025-05-12 00:27:57.248 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'need to' in transcript mock-transcript-3
+2025-05-12 00:27:57.248 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript mock-transcript-3 content: Thinking about research ideas. Need to organize my ideas and create a structured plan. Should talk to Alex about this next week. Important to complete the initial research by August 15....
+2025-05-12 00:27:57.248 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: mock-transcript-3
+2025-05-12 00:27:57.249 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'need to' in transcript mock-transcript-4
+2025-05-12 00:27:57.249 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript mock-transcript-4 content: Thinking about personal goals. Need to organize my ideas and create a structured plan. Should talk to Alex about this next week. Important to complete the initial research by August 15....
+2025-05-12 00:27:57.249 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: mock-transcript-4
+2025-05-12 00:27:57.249 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'need to' in transcript mock-transcript-5
+2025-05-12 00:27:57.249 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript mock-transcript-5 content: Thinking about weekly planning. Need to organize my ideas and create a structured plan. Should talk to Alex about this next week. Important to complete the initial research by August 15....
+2025-05-12 00:27:57.249 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: mock-transcript-5
+2025-05-12 00:27:57.249 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'task' in transcript mock-transcript-6
+2025-05-12 00:27:57.249 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript mock-transcript-6 content: Project update for the data migration project. We're currently at about 75% completion. Tasks remaining include testing the new database schema and implementing the rollback procedures. We should sche...
+2025-05-12 00:27:57.250 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: mock-transcript-6
+2025-05-12 00:27:57.250 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'action' in transcript mock-transcript-7
+2025-05-12 00:27:57.250 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript mock-transcript-7 content: Notes from the product team meeting. We discussed the new feature rollout timeline. Action items: 1) Marketing team to prepare announcement by Friday, 2) Dev team to fix the remaining bugs by Wednesda...
+2025-05-12 00:27:57.250 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: mock-transcript-7
+2025-05-12 00:27:57.250 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'task' in transcript mock-transcript-8
+2025-05-12 00:27:57.250 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript mock-transcript-8 content: Tasks for this week: First, review and sign off on the design documents. Second, prepare the presentation for the client meeting on Thursday. Third, follow up with HR about the new hire paperwork. Fin...
+2025-05-12 00:27:57.250 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: mock-transcript-8
+2025-05-12 00:27:57.251 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'need to' in transcript mock-transcript-9
+2025-05-12 00:27:57.251 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript mock-transcript-9 content: Thinking about research ideas. Need to organize my ideas and create a structured plan. Should talk to Alex about this next week. Important to complete the initial research by August 15....
+2025-05-12 00:27:57.251 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: mock-transcript-9
+2025-05-12 00:27:57.251 | INFO     | __main__:main:208 - 10 transcripts remain after filtering
+2025-05-12 00:28:36.043 | INFO     | limitless_lifelog.__main__:main:126 - Starting Limitless Lifelog v0.1.0
+2025-05-12 00:28:36.044 | INFO     | limitless_lifelog.__main__:main:144 - Processing transcripts from the past 7 days
+2025-05-12 00:28:36.044 | DEBUG    | limitless_lifelog.limitless.api_client:__init__:77 - Using authentication method: all
+2025-05-12 00:28:36.984 | INFO     | limitless_lifelog.__main__:main:168 - Fetching transcripts from Limitless API
+2025-05-12 00:28:36.984 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:108 - Using base lifelogs endpoint: https://api.limitless.ai/v1/lifelogs
+2025-05-12 00:28:36.984 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:132 - Fetching page 1 of transcripts from https://api.limitless.ai/v1/lifelogs
+2025-05-12 00:29:10.634 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:143 - Found lifelogs data in API response
+2025-05-12 00:29:10.634 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:148 - First transcript keys: ['contents', 'id', 'markdown', 'title', 'startTime', 'endTime']
+2025-05-12 00:29:10.634 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:162 - Processed first transcript content: A discussion about a trip to Ukraine, the emotional impact of seeing photos of the deceased on grave...
+2025-05-12 00:29:10.634 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:234 - Retrieved 25 transcripts
+2025-05-12 00:29:10.635 | INFO     | limitless_lifelog.__main__:main:170 - Retrieved 25 transcripts
+2025-05-12 00:29:10.635 | INFO     | limitless_lifelog.__main__:main:183 - Processing 25 transcripts
+2025-05-12 00:29:10.635 | DEBUG    | limitless_lifelog.transcripts.processor:set_archive_dir:39 - Set archive directory to: ./transcripts_archive
+2025-05-12 00:29:10.676 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript IIykEeMjCFDt044bFIOW content: A discussion about a trip to Ukraine, the emotional impact of seeing photos of the deceased on graves, and the slow progress of legalizing MDMA....
+2025-05-12 00:29:10.676 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: IIykEeMjCFDt044bFIOW
+2025-05-12 00:29:10.676 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'call' in transcript gNO38fAnFlivybCjZeEm
+2025-05-12 00:29:10.677 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript gNO38fAnFlivybCjZeEm content: Conversation shifts to running a model locally to avoid charges....
+2025-05-12 00:29:10.677 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: gNO38fAnFlivybCjZeEm
+2025-05-12 00:29:10.677 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript TjI24qUdpekQSXnLL1dS content: A discussion about love, patience, the studio game, watching something for 50 years, a number 27, pants, a series on Friday, a first pitch, showing the kitchen, and putting something on the table....
+2025-05-12 00:29:10.677 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: TjI24qUdpekQSXnLL1dS
+2025-05-12 00:29:10.677 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:108 - Skipping short transcript: xFrfLw3A97JKo1mIiZ3S
+2025-05-12 00:29:10.677 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript BdmUbEwbXW5a6yjX3GC5 content: Commentary on a motorcycle race, focusing on rider positions, tire strategies, and potential outcomes....
+2025-05-12 00:29:10.677 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: BdmUbEwbXW5a6yjX3GC5
+2025-05-12 00:29:10.677 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript jmDycGGHctOkFi24lZRV content: Conversation shifts to a discussion about physical intimacy and emotional connection....
+2025-05-12 00:29:10.677 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: jmDycGGHctOkFi24lZRV
+2025-05-12 00:29:10.677 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:108 - Skipping short transcript: MXTnkGWy6GqdsweCclOF
+2025-05-12 00:29:10.677 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript F2xWAcUUcRSx6CtA7chh content: Commentary on a motorcycle race, covering the initial start, penalties, and a crash....
+2025-05-12 00:29:10.677 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: F2xWAcUUcRSx6CtA7chh
+2025-05-12 00:29:10.678 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'action' in transcript ITsKNxCBPRQG6BTUGme0
+2025-05-12 00:29:10.678 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript ITsKNxCBPRQG6BTUGme0 content: Someone explains how to provide feedback while watching videos, then the speakers discuss various topics including rules, reactions to content, and a show release....
+2025-05-12 00:29:10.678 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: ITsKNxCBPRQG6BTUGme0
+2025-05-12 00:29:10.678 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript c1CZ7FNPGZGxWxmIM5P5 content: Brief, unrelated comments after a period of silence....
+2025-05-12 00:29:10.678 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: c1CZ7FNPGZGxWxmIM5P5
+2025-05-12 00:29:10.678 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript pItKcwxNsbqhj3VEHnpp content: A user asks questions about Power Automate, file renaming, and running automations....
+2025-05-12 00:29:10.679 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: pItKcwxNsbqhj3VEHnpp
+2025-05-12 00:29:10.679 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript ZzbFCyQvK0fjg94iRYl9 content: Commentary on the upcoming MotoGP race at Le Mans, including weather conditions and rider preparations....
+2025-05-12 00:29:10.679 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: ZzbFCyQvK0fjg94iRYl9
+2025-05-12 00:29:10.679 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript Wvjzz6AQQrQFcQqymnox content: Commentators discuss the challenging weather conditions and the riders' preparations for the upcoming race....
+2025-05-12 00:29:10.679 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: Wvjzz6AQQrQFcQqymnox
+2025-05-12 00:29:10.680 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'check' in transcript iyvfmLmTRweif5fqMq3Z
+2025-05-12 00:29:10.680 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript iyvfmLmTRweif5fqMq3Z content: The conversation shifts to checking in on someone and a discussion about physical affection....
+2025-05-12 00:29:10.680 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: iyvfmLmTRweif5fqMq3Z
+2025-05-12 00:29:10.680 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript fdz1mR0eaIQX8oXhKyVs content: Brief conversation followed by discussion about relaxation and driving....
+2025-05-12 00:29:10.680 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: fdz1mR0eaIQX8oXhKyVs
+2025-05-12 00:29:10.680 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript RnzPRpctZw96cVnaTVD2 content: Discussion about motorsports racing at Le Mans and the French Grand Prix....
+2025-05-12 00:29:10.681 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: RnzPRpctZw96cVnaTVD2
+2025-05-12 00:29:10.681 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:108 - Skipping short transcript: rryZ80J31AG9i0ry20iS
+2025-05-12 00:29:10.681 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:108 - Skipping short transcript: fI3SDfAzIq8JmKHwG4t9
+2025-05-12 00:29:10.681 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript RyQUlUabZq9AnVczUXt2 content: Conversation shifts to discussing friends and social connections....
+2025-05-12 00:29:10.681 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: RyQUlUabZq9AnVczUXt2
+2025-05-12 00:29:10.681 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript cgh2IIiZRcp9U725Wo2b content: Conversation shifts to family inquiries about having children and marriage....
+2025-05-12 00:29:10.681 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: cgh2IIiZRcp9U725Wo2b
+2025-05-12 00:29:10.682 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript T6gJWR3NhACUYayw0KZ7 content: Catching up and discussing business ventures, including challenges with space and insurance....
+2025-05-12 00:29:10.682 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: T6gJWR3NhACUYayw0KZ7
+2025-05-12 00:29:10.682 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:108 - Skipping short transcript: AyLdZLP2xQWOGxoRpue5
+2025-05-12 00:29:10.682 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript jTg9UJVqgWICSSLB18xe content: Discussing a restaurant order and remote work aspirations....
+2025-05-12 00:29:10.682 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: jTg9UJVqgWICSSLB18xe
+2025-05-12 00:29:10.682 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'plan' in transcript 7rPfC0uPrNm3w7qpyUwl
+2025-05-12 00:29:10.683 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript 7rPfC0uPrNm3w7qpyUwl content: Discussing Mother's Day plans and having a beer outside....
+2025-05-12 00:29:10.683 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: 7rPfC0uPrNm3w7qpyUwl
+2025-05-12 00:29:10.683 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript oTeZtURiKw2m5gmSZdvY content: A customer recounts their busy Mother's Day weekend travels and activities....
+2025-05-12 00:29:10.683 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: oTeZtURiKw2m5gmSZdvY
+2025-05-12 00:29:10.683 | INFO     | limitless_lifelog.__main__:main:208 - 20 transcripts remain after filtering
+2025-05-12 00:31:40.475 | INFO     | limitless_lifelog.__main__:main:212 - Extracted 11 actionable items
+2025-05-12 00:31:40.476 | INFO     | limitless_lifelog.__main__:main:219 - Updating Notion databases
+2025-05-12 00:31:40.476 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 6 entries for tasks database
+2025-05-12 00:31:40.753 | DEBUG    | limitless_lifelog.notion.client:update_databases:73 - Database tasks has properties: ['Delay', 'Completed on', 'Task name', 'Tags', 'Assignee', 'Status', 'Due', 'Priority', 'Sub-tasks', 'Parent-task', 'Project']
+2025-05-12 00:31:40.753 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:283 - Mapped title property 'Title' to 'Task name'
+2025-05-12 00:31:40.754 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:253 - Converting select to empty relation for property 'Project'
+2025-05-12 00:31:42.957 | DEBUG    | limitless_lifelog.notion.client:_add_comment:148 - Added comment to page 1f1e1347-4afd-8120-b9a6-dac27746cd3e
+2025-05-12 00:31:43.258 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:283 - Mapped title property 'Title' to 'Task name'
+2025-05-12 00:31:43.258 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:253 - Converting select to empty relation for property 'Project'
+2025-05-12 00:31:43.968 | DEBUG    | limitless_lifelog.notion.client:_add_comment:148 - Added comment to page 1f1e1347-4afd-8114-af6d-f7b48566fad7
+2025-05-12 00:31:44.269 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:283 - Mapped title property 'Title' to 'Task name'
+2025-05-12 00:31:44.269 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:253 - Converting select to empty relation for property 'Project'
+2025-05-12 00:31:53.104 | DEBUG    | limitless_lifelog.notion.client:_add_comment:148 - Added comment to page 1f1e1347-4afd-817a-ba37-f17f78f27fe9
+2025-05-12 00:31:53.405 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:283 - Mapped title property 'Title' to 'Task name'
+2025-05-12 00:31:53.405 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:253 - Converting select to empty relation for property 'Project'
+2025-05-12 00:31:54.870 | DEBUG    | limitless_lifelog.notion.client:_add_comment:148 - Added comment to page 1f1e1347-4afd-8176-9f12-f06ba693081e
+2025-05-12 00:31:55.170 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:283 - Mapped title property 'Title' to 'Task name'
+2025-05-12 00:32:06.387 | DEBUG    | limitless_lifelog.notion.client:_add_comment:148 - Added comment to page 1f1e1347-4afd-8126-8fe4-f303f99e9b55
+2025-05-12 00:32:06.687 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:283 - Mapped title property 'Title' to 'Task name'
+2025-05-12 00:32:08.159 | DEBUG    | limitless_lifelog.notion.client:_add_comment:148 - Added comment to page 1f1e1347-4afd-8171-917e-c2caf07d9b1d
+2025-05-12 00:32:08.460 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 5 entries for projects database
+2025-05-12 00:32:11.129 | DEBUG    | limitless_lifelog.notion.client:update_databases:73 - Database projects has properties: ['Sign off project?', 'Project name', 'Owner', 'Status', 'Completion', 'Priority', 'Dates', 'Summary', 'Tasks', 'Is Blocking', 'Blocked By']
+2025-05-12 00:32:11.129 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:283 - Mapped title property 'Name' to 'Project name'
+2025-05-12 00:32:11.129 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:271 - Using default status 'Planning' for property 'Status'
+2025-05-12 00:32:12.488 | DEBUG    | limitless_lifelog.notion.client:_add_comment:148 - Added comment to page 1f1e1347-4afd-8110-af56-da7ee5b0dbf6
+2025-05-12 00:32:12.789 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:283 - Mapped title property 'Name' to 'Project name'
+2025-05-12 00:32:12.789 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:271 - Using default status 'Planning' for property 'Status'
+2025-05-12 00:32:16.506 | DEBUG    | limitless_lifelog.notion.client:_add_comment:148 - Added comment to page 1f1e1347-4afd-8147-a618-d28e98302502
+2025-05-12 00:32:16.807 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:283 - Mapped title property 'Name' to 'Project name'
+2025-05-12 00:32:16.807 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:271 - Using default status 'Planning' for property 'Status'
+2025-05-12 00:32:17.600 | DEBUG    | limitless_lifelog.notion.client:_add_comment:148 - Added comment to page 1f1e1347-4afd-8156-9583-e10b4661e308
+2025-05-12 00:32:17.901 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:283 - Mapped title property 'Name' to 'Project name'
+2025-05-12 00:32:17.901 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:271 - Using default status 'Planning' for property 'Status'
+2025-05-12 00:32:20.331 | DEBUG    | limitless_lifelog.notion.client:_add_comment:148 - Added comment to page 1f1e1347-4afd-81c4-bd76-c0430b60e2c7
+2025-05-12 00:32:20.631 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:283 - Mapped title property 'Name' to 'Project name'
+2025-05-12 00:32:20.632 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:271 - Using default status 'Planning' for property 'Status'
+2025-05-12 00:32:21.468 | DEBUG    | limitless_lifelog.notion.client:_add_comment:148 - Added comment to page 1f1e1347-4afd-81b6-a42c-ea26551452d2
+2025-05-12 00:32:21.768 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 4 entries for todo database
+2025-05-12 00:32:22.455 | DEBUG    | limitless_lifelog.notion.client:update_databases:73 - Database todo has properties: ['To-Do Completion', 'Days remaining', 'Status', 'Multi-select', 'Due date', 'Priority', 'Name']
+2025-05-12 00:32:22.455 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:283 - Mapped title property 'Title' to 'Name'
+2025-05-12 00:32:24.256 | DEBUG    | limitless_lifelog.notion.client:_add_comment:148 - Added comment to page 1f1e1347-4afd-81ee-be08-c25843faa114
+2025-05-12 00:32:24.557 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:283 - Mapped title property 'Title' to 'Name'
+2025-05-12 00:32:25.360 | DEBUG    | limitless_lifelog.notion.client:_add_comment:148 - Added comment to page 1f1e1347-4afd-81c1-9714-ca7e48d48fdb
+2025-05-12 00:32:25.661 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:283 - Mapped title property 'Title' to 'Name'
+2025-05-12 00:32:34.252 | DEBUG    | limitless_lifelog.notion.client:_add_comment:148 - Added comment to page 1f1e1347-4afd-81ef-b2d3-d77ae87a1e7d
+2025-05-12 00:32:34.553 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:283 - Mapped title property 'Title' to 'Name'
+2025-05-12 00:32:36.037 | DEBUG    | limitless_lifelog.notion.client:_add_comment:148 - Added comment to page 1f1e1347-4afd-81b5-bb79-c7b49565d35d
+2025-05-12 00:32:36.338 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 1 entries for lifelog database
+2025-05-12 00:32:36.496 | DEBUG    | limitless_lifelog.notion.client:update_databases:73 - Database lifelog has properties: ['Description', 'Assignee', 'Due Date', 'Priority', 'Tags', 'Status', 'Type', 'Name']
+2025-05-12 00:32:36.497 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:283 - Mapped title property 'Entry' to 'Name'
+2025-05-12 00:32:42.211 | INFO     | limitless_lifelog.__main__:main:221 - Notion update completed: {'created': 16, 'updated': 0, 'failed': 0}
+2025-05-12 00:32:42.212 | INFO     | limitless_lifelog.__main__:main:229 - Updated last run timestamp
+2025-05-12 00:32:42.212 | INFO     | limitless_lifelog.__main__:main:231 - Process completed successfully
+2025-05-12 00:38:37.988 | INFO     | __main__:main:126 - Starting Limitless Lifelog v0.1.0
+2025-05-12 00:38:37.989 | INFO     | __main__:main:146 - Processing transcripts since 2025-05-12 00:32:42.211926
+2025-05-12 00:38:37.989 | DEBUG    | limitless_lifelog.limitless.api_client:__init__:77 - Using authentication method: all
+2025-05-12 00:38:39.087 | INFO     | __main__:main:168 - Fetching transcripts from Limitless API
+2025-05-12 00:38:39.087 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:99 - Using mock transcript data (mock mode enabled)
+2025-05-12 00:38:39.088 | INFO     | __main__:main:170 - Retrieved 10 transcripts
+2025-05-12 00:38:39.088 | INFO     | __main__:main:183 - Processing 10 transcripts
+2025-05-12 00:38:39.088 | DEBUG    | limitless_lifelog.transcripts.processor:set_archive_dir:39 - Set archive directory to: ./transcripts_archive
+2025-05-12 00:38:39.128 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'task' in transcript mock-transcript-0
+2025-05-12 00:38:39.128 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript mock-transcript-0 content: Project update for the data migration project. We're currently at about 75% completion. Tasks remaining include testing the new database schema and implementing the rollback procedures. We should sche...
+2025-05-12 00:38:39.128 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: mock-transcript-0
+2025-05-12 00:38:39.128 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'action' in transcript mock-transcript-1
+2025-05-12 00:38:39.128 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript mock-transcript-1 content: Notes from the product team meeting. We discussed the new feature rollout timeline. Action items: 1) Marketing team to prepare announcement by Friday, 2) Dev team to fix the remaining bugs by Wednesda...
+2025-05-12 00:38:39.128 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: mock-transcript-1
+2025-05-12 00:38:39.129 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'task' in transcript mock-transcript-2
+2025-05-12 00:38:39.129 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript mock-transcript-2 content: Tasks for this week: First, review and sign off on the design documents. Second, prepare the presentation for the client meeting on Thursday. Third, follow up with HR about the new hire paperwork. Fin...
+2025-05-12 00:38:39.129 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: mock-transcript-2
+2025-05-12 00:38:39.129 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'need to' in transcript mock-transcript-3
+2025-05-12 00:38:39.129 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript mock-transcript-3 content: Thinking about research ideas. Need to organize my ideas and create a structured plan. Should talk to Alex about this next week. Important to complete the initial research by August 15....
+2025-05-12 00:38:39.129 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: mock-transcript-3
+2025-05-12 00:38:39.129 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'need to' in transcript mock-transcript-4
+2025-05-12 00:38:39.129 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript mock-transcript-4 content: Thinking about personal goals. Need to organize my ideas and create a structured plan. Should talk to Alex about this next week. Important to complete the initial research by August 15....
+2025-05-12 00:38:39.130 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: mock-transcript-4
+2025-05-12 00:38:39.130 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'need to' in transcript mock-transcript-5
+2025-05-12 00:38:39.130 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript mock-transcript-5 content: Thinking about weekly planning. Need to organize my ideas and create a structured plan. Should talk to Alex about this next week. Important to complete the initial research by August 15....
+2025-05-12 00:38:39.130 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: mock-transcript-5
+2025-05-12 00:38:39.131 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'task' in transcript mock-transcript-6
+2025-05-12 00:38:39.131 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript mock-transcript-6 content: Project update for the data migration project. We're currently at about 75% completion. Tasks remaining include testing the new database schema and implementing the rollback procedures. We should sche...
+2025-05-12 00:38:39.131 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: mock-transcript-6
+2025-05-12 00:38:39.131 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'action' in transcript mock-transcript-7
+2025-05-12 00:38:39.131 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript mock-transcript-7 content: Notes from the product team meeting. We discussed the new feature rollout timeline. Action items: 1) Marketing team to prepare announcement by Friday, 2) Dev team to fix the remaining bugs by Wednesda...
+2025-05-12 00:38:39.131 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: mock-transcript-7
+2025-05-12 00:38:39.132 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'task' in transcript mock-transcript-8
+2025-05-12 00:38:39.132 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript mock-transcript-8 content: Tasks for this week: First, review and sign off on the design documents. Second, prepare the presentation for the client meeting on Thursday. Third, follow up with HR about the new hire paperwork. Fin...
+2025-05-12 00:38:39.132 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: mock-transcript-8
+2025-05-12 00:38:39.132 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:148 - Found action keyword 'need to' in transcript mock-transcript-9
+2025-05-12 00:38:39.132 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:193 - Transcript mock-transcript-9 content: Thinking about research ideas. Need to organize my ideas and create a structured plan. Should talk to Alex about this next week. Important to complete the initial research by August 15....
+2025-05-12 00:38:39.132 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: mock-transcript-9
+2025-05-12 00:38:39.132 | INFO     | __main__:main:208 - 10 transcripts remain after filtering
+2025-05-12 00:41:41.472 | INFO     | limitless_lifelog.__main__:main:126 - Starting Limitless Lifelog v0.1.0
+2025-05-12 00:41:41.473 | INFO     | limitless_lifelog.__main__:main:144 - Processing transcripts from the past 1 days
+2025-05-12 00:41:42.404 | INFO     | limitless_lifelog.__main__:main:168 - Fetching transcripts from Limitless API
+2025-05-12 00:41:47.448 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:234 - Retrieved 25 transcripts
+2025-05-12 00:41:47.448 | INFO     | limitless_lifelog.__main__:main:170 - Retrieved 25 transcripts
+2025-05-12 00:41:47.448 | INFO     | limitless_lifelog.__main__:main:183 - Processing 25 transcripts
+2025-05-12 00:41:47.488 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: SLL5v27yPoTJ8A3HBzQe
+2025-05-12 00:41:47.489 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: Xsepy6UWD9Fac4LPSMRP
+2025-05-12 00:41:47.489 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: IIykEeMjCFDt044bFIOW
+2025-05-12 00:41:47.489 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: gNO38fAnFlivybCjZeEm
+2025-05-12 00:41:47.489 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: TjI24qUdpekQSXnLL1dS
+2025-05-12 00:41:47.490 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: BdmUbEwbXW5a6yjX3GC5
+2025-05-12 00:41:47.490 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: jmDycGGHctOkFi24lZRV
+2025-05-12 00:41:47.490 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: F2xWAcUUcRSx6CtA7chh
+2025-05-12 00:41:47.490 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: ITsKNxCBPRQG6BTUGme0
+2025-05-12 00:41:47.490 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: c1CZ7FNPGZGxWxmIM5P5
+2025-05-12 00:41:47.490 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: pItKcwxNsbqhj3VEHnpp
+2025-05-12 00:41:47.491 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: ZzbFCyQvK0fjg94iRYl9
+2025-05-12 00:41:47.491 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: Wvjzz6AQQrQFcQqymnox
+2025-05-12 00:41:47.491 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: iyvfmLmTRweif5fqMq3Z
+2025-05-12 00:41:47.491 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: fdz1mR0eaIQX8oXhKyVs
+2025-05-12 00:41:47.491 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: RnzPRpctZw96cVnaTVD2
+2025-05-12 00:41:47.492 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: RyQUlUabZq9AnVczUXt2
+2025-05-12 00:41:47.492 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: cgh2IIiZRcp9U725Wo2b
+2025-05-12 00:41:47.492 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: T6gJWR3NhACUYayw0KZ7
+2025-05-12 00:41:47.492 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:199 - Including relevant transcript: jTg9UJVqgWICSSLB18xe
+2025-05-12 00:41:47.492 | INFO     | limitless_lifelog.__main__:main:208 - 20 transcripts remain after filtering
+2025-05-12 00:44:11.939 | INFO     | limitless_lifelog.__main__:main:212 - Extracted 17 actionable items
+2025-05-12 00:44:11.940 | INFO     | limitless_lifelog.__main__:main:219 - Updating Notion databases
+2025-05-12 00:44:11.941 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 13 entries for tasks database
+2025-05-12 00:44:12.553 | ERROR    | limitless_lifelog.notion.client:update_databases:172 - Error creating Notion entry: body failed validation: body.properties.Due.date.start should be a string, instead was `null`.
+2025-05-12 00:44:14.670 | ERROR    | limitless_lifelog.notion.client:update_databases:172 - Error creating Notion entry: body failed validation: body.properties.Due.date.start should be a valid ISO 8601 date string, instead was `""`.
+2025-05-12 00:44:15.408 | ERROR    | limitless_lifelog.notion.client:update_databases:172 - Error creating Notion entry: body failed validation: body.properties.Due.date.start should be a valid ISO 8601 date string, instead was `""`.
+2025-05-12 00:44:26.723 | ERROR    | limitless_lifelog.notion.client:update_databases:172 - Error creating Notion entry: body failed validation: body.properties.Due.date.start should be a string, instead was `null`.
+2025-05-12 00:44:29.106 | ERROR    | limitless_lifelog.notion.client:_add_comment:195 - Error adding comment to page 1f1e1347-4afd-812d-84c8-c7892ac8a873: Server disconnected without sending a response.
+2025-05-12 00:44:42.617 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 3 entries for projects database
+2025-05-12 00:44:49.497 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 6 entries for todo database
+2025-05-12 00:45:02.428 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 1 entries for lifelog database
+2025-05-12 00:45:04.356 | INFO     | limitless_lifelog.__main__:main:221 - Notion update completed: {'created': 19, 'updated': 0, 'failed': 4}
+2025-05-12 00:45:04.357 | INFO     | limitless_lifelog.__main__:main:229 - Updated last run timestamp
+2025-05-12 00:45:04.357 | INFO     | limitless_lifelog.__main__:main:231 - Process completed successfully
+2025-05-12 00:52:37.820 | INFO     | __main__:main:126 - Starting Limitless Lifelog v0.1.0
+2025-05-12 00:52:37.821 | INFO     | __main__:main:146 - Processing transcripts since 2025-05-12 00:45:04.356864
+2025-05-12 00:52:38.862 | INFO     | __main__:main:168 - Fetching transcripts from Limitless API
+2025-05-12 00:52:38.862 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:99 - Using mock transcript data (mock mode enabled)
+2025-05-12 00:52:38.863 | INFO     | __main__:main:170 - Retrieved 10 transcripts
+2025-05-12 00:52:38.863 | INFO     | __main__:main:183 - Processing 10 transcripts
+2025-05-12 00:52:38.906 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-0
+2025-05-12 00:52:38.907 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-1
+2025-05-12 00:52:38.907 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-2
+2025-05-12 00:52:38.907 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-3
+2025-05-12 00:52:38.907 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-4
+2025-05-12 00:52:38.907 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-5
+2025-05-12 00:52:38.908 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-6
+2025-05-12 00:52:38.908 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-7
+2025-05-12 00:52:38.908 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-8
+2025-05-12 00:52:38.908 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-9
+2025-05-12 00:52:38.909 | INFO     | __main__:main:208 - 10 transcripts remain after filtering
+2025-05-12 00:53:50.733 | INFO     | limitless_lifelog.__main__:main:126 - Starting Limitless Lifelog v0.1.0
+2025-05-12 00:53:50.734 | INFO     | limitless_lifelog.__main__:main:144 - Processing transcripts from the past 1 days
+2025-05-12 00:53:51.668 | INFO     | limitless_lifelog.__main__:main:168 - Fetching transcripts from Limitless API
+2025-05-12 00:53:56.505 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:234 - Retrieved 25 transcripts
+2025-05-12 00:53:56.505 | INFO     | limitless_lifelog.__main__:main:170 - Retrieved 25 transcripts
+2025-05-12 00:53:56.505 | INFO     | limitless_lifelog.__main__:main:183 - Processing 25 transcripts
+2025-05-12 00:53:56.544 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: SLL5v27yPoTJ8A3HBzQe
+2025-05-12 00:53:56.545 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: Xsepy6UWD9Fac4LPSMRP
+2025-05-12 00:53:56.545 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: IIykEeMjCFDt044bFIOW
+2025-05-12 00:53:56.545 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: gNO38fAnFlivybCjZeEm
+2025-05-12 00:53:56.545 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: TjI24qUdpekQSXnLL1dS
+2025-05-12 00:53:56.545 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: BdmUbEwbXW5a6yjX3GC5
+2025-05-12 00:53:56.546 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: jmDycGGHctOkFi24lZRV
+2025-05-12 00:53:56.546 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: F2xWAcUUcRSx6CtA7chh
+2025-05-12 00:53:56.546 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: ITsKNxCBPRQG6BTUGme0
+2025-05-12 00:53:56.546 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: c1CZ7FNPGZGxWxmIM5P5
+2025-05-12 00:53:56.547 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: pItKcwxNsbqhj3VEHnpp
+2025-05-12 00:53:56.547 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: ZzbFCyQvK0fjg94iRYl9
+2025-05-12 00:53:56.547 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: Wvjzz6AQQrQFcQqymnox
+2025-05-12 00:53:56.547 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: iyvfmLmTRweif5fqMq3Z
+2025-05-12 00:53:56.548 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: fdz1mR0eaIQX8oXhKyVs
+2025-05-12 00:53:56.548 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: RnzPRpctZw96cVnaTVD2
+2025-05-12 00:53:56.548 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: RyQUlUabZq9AnVczUXt2
+2025-05-12 00:53:56.548 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: cgh2IIiZRcp9U725Wo2b
+2025-05-12 00:53:56.548 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: T6gJWR3NhACUYayw0KZ7
+2025-05-12 00:53:56.549 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: jTg9UJVqgWICSSLB18xe
+2025-05-12 00:53:56.549 | INFO     | limitless_lifelog.__main__:main:208 - 20 transcripts remain after filtering
+2025-05-12 00:56:38.576 | INFO     | limitless_lifelog.__main__:main:212 - Extracted 26 actionable items
+2025-05-12 00:56:38.577 | INFO     | limitless_lifelog.__main__:main:219 - Updating Notion databases
+2025-05-12 00:56:38.577 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 19 entries for tasks database
+2025-05-12 00:57:20.472 | ERROR    | limitless_lifelog.notion.client:update_databases:218 - Error creating Notion entry: body failed validation: body.properties.Due.date.start should be a valid ISO 8601 date string, instead was `"2025-05-16TTBD"`.
+2025-05-12 00:58:02.899 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 5 entries for projects database
+2025-05-12 00:58:23.731 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 10 entries for todo database
+2025-05-12 00:58:50.202 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 1 entries for lifelog database
+2025-05-12 00:59:02.916 | INFO     | limitless_lifelog.__main__:main:221 - Notion update completed: {'created': 34, 'updated': 0, 'failed': 1}
+2025-05-12 00:59:02.916 | INFO     | limitless_lifelog.__main__:main:229 - Updated last run timestamp
+2025-05-12 00:59:02.917 | INFO     | limitless_lifelog.__main__:main:231 - Process completed successfully
+2025-05-12 01:04:39.132 | INFO     | __main__:main:126 - Starting Limitless Lifelog v0.1.0
+2025-05-12 01:04:39.132 | INFO     | __main__:main:146 - Processing transcripts since 2025-05-12 00:59:02.916421
+2025-05-12 01:04:40.196 | INFO     | __main__:main:168 - Fetching transcripts from Limitless API
+2025-05-12 01:04:40.196 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:99 - Using mock transcript data (mock mode enabled)
+2025-05-12 01:04:40.197 | INFO     | __main__:main:170 - Retrieved 10 transcripts
+2025-05-12 01:04:40.197 | INFO     | __main__:main:183 - Processing 10 transcripts
+2025-05-12 01:04:40.244 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-0
+2025-05-12 01:04:40.244 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-1
+2025-05-12 01:04:40.244 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-2
+2025-05-12 01:04:40.245 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-3
+2025-05-12 01:04:40.245 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-4
+2025-05-12 01:04:40.245 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-5
+2025-05-12 01:04:40.246 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-6
+2025-05-12 01:04:40.246 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-7
+2025-05-12 01:04:40.246 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-8
+2025-05-12 01:04:40.246 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-9
+2025-05-12 01:04:40.247 | INFO     | __main__:main:208 - 10 transcripts remain after filtering
+2025-05-12 01:08:04.861 | INFO     | limitless_lifelog.__main__:main:126 - Starting Limitless Lifelog v0.1.0
+2025-05-12 01:08:04.862 | INFO     | limitless_lifelog.__main__:main:144 - Processing transcripts from the past 1 days
+2025-05-12 01:08:05.828 | INFO     | limitless_lifelog.__main__:main:168 - Fetching transcripts from Limitless API
+2025-05-12 01:08:08.336 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:234 - Retrieved 25 transcripts
+2025-05-12 01:08:08.337 | INFO     | limitless_lifelog.__main__:main:170 - Retrieved 25 transcripts
+2025-05-12 01:08:08.337 | INFO     | limitless_lifelog.__main__:main:183 - Processing 25 transcripts
+2025-05-12 01:08:08.377 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: 9beW7SRqHpxGiCvOpMb8
+2025-05-12 01:08:08.378 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: SLL5v27yPoTJ8A3HBzQe
+2025-05-12 01:08:08.378 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: Xsepy6UWD9Fac4LPSMRP
+2025-05-12 01:08:08.378 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: IIykEeMjCFDt044bFIOW
+2025-05-12 01:08:08.378 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: gNO38fAnFlivybCjZeEm
+2025-05-12 01:08:08.379 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: TjI24qUdpekQSXnLL1dS
+2025-05-12 01:08:08.379 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: BdmUbEwbXW5a6yjX3GC5
+2025-05-12 01:08:08.379 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: jmDycGGHctOkFi24lZRV
+2025-05-12 01:08:08.379 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: F2xWAcUUcRSx6CtA7chh
+2025-05-12 01:08:08.380 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: ITsKNxCBPRQG6BTUGme0
+2025-05-12 01:08:08.380 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: c1CZ7FNPGZGxWxmIM5P5
+2025-05-12 01:08:08.380 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: pItKcwxNsbqhj3VEHnpp
+2025-05-12 01:08:08.380 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: ZzbFCyQvK0fjg94iRYl9
+2025-05-12 01:08:08.381 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: Wvjzz6AQQrQFcQqymnox
+2025-05-12 01:08:08.381 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: iyvfmLmTRweif5fqMq3Z
+2025-05-12 01:08:08.381 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: fdz1mR0eaIQX8oXhKyVs
+2025-05-12 01:08:08.381 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: RnzPRpctZw96cVnaTVD2
+2025-05-12 01:08:08.382 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: RyQUlUabZq9AnVczUXt2
+2025-05-12 01:08:08.382 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: cgh2IIiZRcp9U725Wo2b
+2025-05-12 01:08:08.382 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: T6gJWR3NhACUYayw0KZ7
+2025-05-12 01:08:08.382 | INFO     | limitless_lifelog.__main__:main:208 - 20 transcripts remain after filtering
+2025-05-12 01:10:35.336 | INFO     | limitless_lifelog.__main__:main:212 - Extracted 15 actionable items
+2025-05-12 01:10:35.338 | INFO     | limitless_lifelog.__main__:main:219 - Updating Notion databases
+2025-05-12 01:10:35.338 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 11 entries for tasks database
+2025-05-12 01:10:36.680 | ERROR    | limitless_lifelog.notion.client:update_databases:218 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 01:10:37.147 | ERROR    | limitless_lifelog.notion.client:update_databases:218 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 01:10:38.784 | ERROR    | limitless_lifelog.notion.client:update_databases:218 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 01:10:41.175 | ERROR    | limitless_lifelog.notion.client:update_databases:218 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 01:10:41.644 | ERROR    | limitless_lifelog.notion.client:update_databases:218 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 01:11:04.389 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 2 entries for projects database
+2025-05-12 01:11:04.785 | ERROR    | limitless_lifelog.notion.client:update_databases:218 - Error creating Notion entry: Owner is expected to be people.
+2025-05-12 01:11:05.252 | ERROR    | limitless_lifelog.notion.client:update_databases:218 - Error creating Notion entry: Owner is expected to be people.
+2025-05-12 01:11:05.552 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 7 entries for todo database
+2025-05-12 01:11:33.184 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 1 entries for lifelog database
+2025-05-12 01:11:34.620 | INFO     | limitless_lifelog.__main__:main:221 - Notion update completed: {'created': 14, 'updated': 0, 'failed': 7}
+2025-05-12 01:11:34.621 | INFO     | limitless_lifelog.__main__:main:229 - Updated last run timestamp
+2025-05-12 01:11:34.621 | INFO     | limitless_lifelog.__main__:main:231 - Process completed successfully
+2025-05-12 01:18:17.226 | INFO     | __main__:main:141 - Starting Limitless Lifelog v0.1.0
+2025-05-12 01:18:17.227 | INFO     | __main__:main:161 - Processing transcripts since 2025-05-12 01:11:34.620721
+2025-05-12 01:18:18.300 | INFO     | __main__:main:183 - Fetching transcripts from Limitless API
+2025-05-12 01:18:18.300 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:99 - Using mock transcript data (mock mode enabled)
+2025-05-12 01:18:18.300 | INFO     | __main__:main:185 - Retrieved 10 transcripts
+2025-05-12 01:18:18.300 | INFO     | __main__:main:198 - Processing 10 transcripts
+2025-05-12 01:18:18.346 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-0
+2025-05-12 01:18:18.347 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-1
+2025-05-12 01:18:18.347 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-2
+2025-05-12 01:18:18.347 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-3
+2025-05-12 01:18:18.348 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-4
+2025-05-12 01:18:18.348 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-5
+2025-05-12 01:18:18.348 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-6
+2025-05-12 01:18:18.348 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-7
+2025-05-12 01:18:18.349 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-8
+2025-05-12 01:18:18.349 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: mock-transcript-9
+2025-05-12 01:18:18.349 | INFO     | __main__:main:250 - 10 transcripts remain after filtering
+2025-05-12 01:20:42.154 | INFO     | limitless_lifelog.__main__:main:141 - Starting Limitless Lifelog v0.1.0
+2025-05-12 01:20:42.155 | INFO     | limitless_lifelog.__main__:main:159 - Processing transcripts from the past 1 days
+2025-05-12 01:20:43.125 | INFO     | limitless_lifelog.__main__:main:183 - Fetching transcripts from Limitless API
+2025-05-12 01:20:48.146 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:234 - Retrieved 25 transcripts
+2025-05-12 01:20:48.146 | INFO     | limitless_lifelog.__main__:main:185 - Retrieved 25 transcripts
+2025-05-12 01:20:48.146 | INFO     | limitless_lifelog.__main__:main:198 - Processing 25 transcripts
+2025-05-12 01:20:48.186 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: 9beW7SRqHpxGiCvOpMb8
+2025-05-12 01:20:48.186 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: SLL5v27yPoTJ8A3HBzQe
+2025-05-12 01:20:48.187 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: Xsepy6UWD9Fac4LPSMRP
+2025-05-12 01:20:48.187 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: IIykEeMjCFDt044bFIOW
+2025-05-12 01:20:48.187 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: gNO38fAnFlivybCjZeEm
+2025-05-12 01:20:48.187 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: TjI24qUdpekQSXnLL1dS
+2025-05-12 01:20:48.188 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: BdmUbEwbXW5a6yjX3GC5
+2025-05-12 01:20:48.188 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: jmDycGGHctOkFi24lZRV
+2025-05-12 01:20:48.188 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: F2xWAcUUcRSx6CtA7chh
+2025-05-12 01:20:48.188 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: ITsKNxCBPRQG6BTUGme0
+2025-05-12 01:20:48.189 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: c1CZ7FNPGZGxWxmIM5P5
+2025-05-12 01:20:48.189 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: pItKcwxNsbqhj3VEHnpp
+2025-05-12 01:20:48.189 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: ZzbFCyQvK0fjg94iRYl9
+2025-05-12 01:20:48.189 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: Wvjzz6AQQrQFcQqymnox
+2025-05-12 01:20:48.190 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: iyvfmLmTRweif5fqMq3Z
+2025-05-12 01:20:48.190 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: fdz1mR0eaIQX8oXhKyVs
+2025-05-12 01:20:48.190 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: RnzPRpctZw96cVnaTVD2
+2025-05-12 01:20:48.190 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: RyQUlUabZq9AnVczUXt2
+2025-05-12 01:20:48.190 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: cgh2IIiZRcp9U725Wo2b
+2025-05-12 01:20:48.191 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: T6gJWR3NhACUYayw0KZ7
+2025-05-12 01:20:48.191 | INFO     | limitless_lifelog.__main__:main:250 - 20 transcripts remain after filtering
+2025-05-12 01:20:48.193 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:422 - Archived transcript 9beW7SRqHpxGiCvOpMb8 to transcripts_archive/transcripts/20250512-012048_9beW7SRqHpxGiCvOpMb8.json
+2025-05-12 01:20:48.196 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:422 - Archived transcript SLL5v27yPoTJ8A3HBzQe to transcripts_archive/transcripts/20250512-012048_SLL5v27yPoTJ8A3HBzQe.json
+2025-05-12 01:20:48.198 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:422 - Archived transcript Xsepy6UWD9Fac4LPSMRP to transcripts_archive/transcripts/20250512-012048_Xsepy6UWD9Fac4LPSMRP.json
+2025-05-12 01:20:48.200 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:422 - Archived transcript IIykEeMjCFDt044bFIOW to transcripts_archive/transcripts/20250512-012048_IIykEeMjCFDt044bFIOW.json
+2025-05-12 01:20:48.201 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:422 - Archived transcript gNO38fAnFlivybCjZeEm to transcripts_archive/transcripts/20250512-012048_gNO38fAnFlivybCjZeEm.json
+2025-05-12 01:20:48.202 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:422 - Archived transcript TjI24qUdpekQSXnLL1dS to transcripts_archive/transcripts/20250512-012048_TjI24qUdpekQSXnLL1dS.json
+2025-05-12 01:20:48.203 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:422 - Archived transcript BdmUbEwbXW5a6yjX3GC5 to transcripts_archive/transcripts/20250512-012048_BdmUbEwbXW5a6yjX3GC5.json
+2025-05-12 01:20:48.204 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:422 - Archived transcript jmDycGGHctOkFi24lZRV to transcripts_archive/transcripts/20250512-012048_jmDycGGHctOkFi24lZRV.json
+2025-05-12 01:20:48.205 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:422 - Archived transcript F2xWAcUUcRSx6CtA7chh to transcripts_archive/transcripts/20250512-012048_F2xWAcUUcRSx6CtA7chh.json
+2025-05-12 01:20:48.207 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:422 - Archived transcript ITsKNxCBPRQG6BTUGme0 to transcripts_archive/transcripts/20250512-012048_ITsKNxCBPRQG6BTUGme0.json
+2025-05-12 01:20:48.207 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:422 - Archived transcript c1CZ7FNPGZGxWxmIM5P5 to transcripts_archive/transcripts/20250512-012048_c1CZ7FNPGZGxWxmIM5P5.json
+2025-05-12 01:20:48.209 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:422 - Archived transcript pItKcwxNsbqhj3VEHnpp to transcripts_archive/transcripts/20250512-012048_pItKcwxNsbqhj3VEHnpp.json
+2025-05-12 01:20:48.210 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:422 - Archived transcript ZzbFCyQvK0fjg94iRYl9 to transcripts_archive/transcripts/20250512-012048_ZzbFCyQvK0fjg94iRYl9.json
+2025-05-12 01:20:48.212 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:422 - Archived transcript Wvjzz6AQQrQFcQqymnox to transcripts_archive/transcripts/20250512-012048_Wvjzz6AQQrQFcQqymnox.json
+2025-05-12 01:20:48.212 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:422 - Archived transcript iyvfmLmTRweif5fqMq3Z to transcripts_archive/transcripts/20250512-012048_iyvfmLmTRweif5fqMq3Z.json
+2025-05-12 01:20:48.215 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:422 - Archived transcript fdz1mR0eaIQX8oXhKyVs to transcripts_archive/transcripts/20250512-012048_fdz1mR0eaIQX8oXhKyVs.json
+2025-05-12 01:20:48.217 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:422 - Archived transcript RnzPRpctZw96cVnaTVD2 to transcripts_archive/transcripts/20250512-012048_RnzPRpctZw96cVnaTVD2.json
+2025-05-12 01:20:48.218 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:422 - Archived transcript RyQUlUabZq9AnVczUXt2 to transcripts_archive/transcripts/20250512-012048_RyQUlUabZq9AnVczUXt2.json
+2025-05-12 01:20:48.221 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:422 - Archived transcript cgh2IIiZRcp9U725Wo2b to transcripts_archive/transcripts/20250512-012048_cgh2IIiZRcp9U725Wo2b.json
+2025-05-12 01:20:48.226 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:422 - Archived transcript T6gJWR3NhACUYayw0KZ7 to transcripts_archive/transcripts/20250512-012048_T6gJWR3NhACUYayw0KZ7.json
+2025-05-12 01:20:48.227 | INFO     | limitless_lifelog.__main__:main:255 - Archived 20 transcripts to the file system
+2025-05-12 01:23:06.226 | INFO     | limitless_lifelog.__main__:main:259 - Extracted 12 actionable items
+2025-05-12 01:23:06.226 | INFO     | limitless_lifelog.__main__:main:267 - Updating Notion databases
+2025-05-12 01:23:06.227 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 8 entries for tasks database
+2025-05-12 01:23:06.873 | ERROR    | limitless_lifelog.notion.client:update_databases:218 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 01:23:07.353 | ERROR    | limitless_lifelog.notion.client:update_databases:218 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 01:23:08.847 | ERROR    | limitless_lifelog.notion.client:update_databases:218 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 01:23:33.750 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 3 entries for projects database
+2025-05-12 01:23:35.623 | ERROR    | limitless_lifelog.notion.client:update_databases:218 - Error creating Notion entry: Owner is expected to be people.
+2025-05-12 01:23:36.072 | ERROR    | limitless_lifelog.notion.client:update_databases:218 - Error creating Notion entry: Owner is expected to be people.
+2025-05-12 01:23:36.793 | ERROR    | limitless_lifelog.notion.client:update_databases:218 - Error creating Notion entry: Owner is expected to be people.
+2025-05-12 01:23:37.094 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 4 entries for todo database
+2025-05-12 01:23:49.144 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 1 entries for lifelog database
+2025-05-12 01:23:49.980 | INFO     | limitless_lifelog.__main__:main:269 - Notion update completed: {'created': 10, 'updated': 0, 'failed': 6}
+2025-05-12 01:23:49.981 | INFO     | limitless_lifelog.__main__:main:277 - Updated last run timestamp
+2025-05-12 01:23:49.981 | INFO     | limitless_lifelog.__main__:main:279 - Process completed successfully
+2025-05-12 01:44:03.633 | INFO     | limitless_lifelog.__main__:main:141 - Starting Limitless Lifelog v0.1.0
+2025-05-12 01:44:03.634 | INFO     | limitless_lifelog.__main__:main:159 - Processing transcripts from the past 1 days
+2025-05-12 01:44:04.587 | INFO     | limitless_lifelog.__main__:main:183 - Fetching transcripts from Limitless API
+2025-05-12 01:44:16.094 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:234 - Retrieved 25 transcripts
+2025-05-12 01:44:16.094 | INFO     | limitless_lifelog.__main__:main:185 - Retrieved 25 transcripts
+2025-05-12 01:44:16.094 | INFO     | limitless_lifelog.__main__:main:198 - Processing 25 transcripts
+2025-05-12 01:44:16.135 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: 9beW7SRqHpxGiCvOpMb8
+2025-05-12 01:44:16.135 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: SLL5v27yPoTJ8A3HBzQe
+2025-05-12 01:44:16.136 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: Xsepy6UWD9Fac4LPSMRP
+2025-05-12 01:44:16.136 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: IIykEeMjCFDt044bFIOW
+2025-05-12 01:44:16.136 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: gNO38fAnFlivybCjZeEm
+2025-05-12 01:44:16.137 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: TjI24qUdpekQSXnLL1dS
+2025-05-12 01:44:16.137 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: BdmUbEwbXW5a6yjX3GC5
+2025-05-12 01:44:16.137 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: jmDycGGHctOkFi24lZRV
+2025-05-12 01:44:16.137 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: F2xWAcUUcRSx6CtA7chh
+2025-05-12 01:44:16.138 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: ITsKNxCBPRQG6BTUGme0
+2025-05-12 01:44:16.138 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: c1CZ7FNPGZGxWxmIM5P5
+2025-05-12 01:44:16.138 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: pItKcwxNsbqhj3VEHnpp
+2025-05-12 01:44:16.138 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: ZzbFCyQvK0fjg94iRYl9
+2025-05-12 01:44:16.139 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: Wvjzz6AQQrQFcQqymnox
+2025-05-12 01:44:16.139 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: iyvfmLmTRweif5fqMq3Z
+2025-05-12 01:44:16.139 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: fdz1mR0eaIQX8oXhKyVs
+2025-05-12 01:44:16.139 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: RnzPRpctZw96cVnaTVD2
+2025-05-12 01:44:16.139 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: RyQUlUabZq9AnVczUXt2
+2025-05-12 01:44:16.140 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: cgh2IIiZRcp9U725Wo2b
+2025-05-12 01:44:16.140 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: T6gJWR3NhACUYayw0KZ7
+2025-05-12 01:44:16.140 | INFO     | limitless_lifelog.__main__:main:250 - 20 transcripts remain after filtering
+2025-05-12 01:44:16.141 | INFO     | limitless_lifelog.__main__:main:255 - Archived 20 transcripts to the file system
+2025-05-12 01:46:56.762 | INFO     | limitless_lifelog.__main__:main:259 - Extracted 11 actionable items
+2025-05-12 01:46:56.763 | INFO     | limitless_lifelog.__main__:main:267 - Updating Notion databases
+2025-05-12 01:46:56.763 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 8 entries for tasks database
+2025-05-12 01:46:57.415 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 01:46:57.883 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 01:46:58.529 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 01:47:20.372 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 2 entries for projects database
+2025-05-12 01:47:23.625 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Owner is expected to be people.
+2025-05-12 01:47:24.814 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Owner is expected to be people.
+2025-05-12 01:47:25.114 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 4 entries for todo database
+2025-05-12 01:47:32.492 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 1 entries for lifelog database
+2025-05-12 01:47:35.607 | INFO     | limitless_lifelog.__main__:main:269 - Notion update completed: {'created': 10, 'updated': 0, 'failed': 5}
+2025-05-12 01:47:35.608 | INFO     | limitless_lifelog.__main__:main:277 - Updated last run timestamp
+2025-05-12 01:47:35.608 | INFO     | limitless_lifelog.__main__:main:279 - Process completed successfully
+2025-05-12 02:02:27.484 | INFO     | limitless_lifelog.__main__:main:141 - Starting Limitless Lifelog v0.1.0
+2025-05-12 02:02:27.484 | INFO     | limitless_lifelog.__main__:main:159 - Processing transcripts from the past 1 days
+2025-05-12 02:02:28.481 | INFO     | limitless_lifelog.__main__:main:183 - Fetching transcripts from Limitless API
+2025-05-12 02:02:30.328 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:234 - Retrieved 25 transcripts
+2025-05-12 02:02:30.328 | INFO     | limitless_lifelog.__main__:main:185 - Retrieved 25 transcripts
+2025-05-12 02:02:30.328 | INFO     | limitless_lifelog.__main__:main:198 - Processing 25 transcripts
+2025-05-12 02:02:30.370 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: 9beW7SRqHpxGiCvOpMb8
+2025-05-12 02:02:30.370 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: SLL5v27yPoTJ8A3HBzQe
+2025-05-12 02:02:30.370 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: Xsepy6UWD9Fac4LPSMRP
+2025-05-12 02:02:30.370 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: IIykEeMjCFDt044bFIOW
+2025-05-12 02:02:30.370 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: gNO38fAnFlivybCjZeEm
+2025-05-12 02:02:30.371 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: TjI24qUdpekQSXnLL1dS
+2025-05-12 02:02:30.371 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: BdmUbEwbXW5a6yjX3GC5
+2025-05-12 02:02:30.371 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: jmDycGGHctOkFi24lZRV
+2025-05-12 02:02:30.371 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: F2xWAcUUcRSx6CtA7chh
+2025-05-12 02:02:30.372 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: ITsKNxCBPRQG6BTUGme0
+2025-05-12 02:02:30.372 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: c1CZ7FNPGZGxWxmIM5P5
+2025-05-12 02:02:30.372 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: pItKcwxNsbqhj3VEHnpp
+2025-05-12 02:02:30.372 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: ZzbFCyQvK0fjg94iRYl9
+2025-05-12 02:02:30.373 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: Wvjzz6AQQrQFcQqymnox
+2025-05-12 02:02:30.373 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: iyvfmLmTRweif5fqMq3Z
+2025-05-12 02:02:30.373 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: fdz1mR0eaIQX8oXhKyVs
+2025-05-12 02:02:30.373 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: RnzPRpctZw96cVnaTVD2
+2025-05-12 02:02:30.374 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: RyQUlUabZq9AnVczUXt2
+2025-05-12 02:02:30.374 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: cgh2IIiZRcp9U725Wo2b
+2025-05-12 02:02:30.374 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: T6gJWR3NhACUYayw0KZ7
+2025-05-12 02:02:30.375 | INFO     | limitless_lifelog.__main__:main:250 - 20 transcripts remain after filtering
+2025-05-12 02:02:30.376 | INFO     | limitless_lifelog.__main__:main:255 - Archived 20 transcripts to the file system
+2025-05-12 02:04:50.954 | INFO     | limitless_lifelog.__main__:main:259 - Extracted 11 actionable items
+2025-05-12 02:04:50.955 | INFO     | limitless_lifelog.__main__:main:267 - Updating Notion databases
+2025-05-12 02:04:50.955 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 9 entries for tasks database
+2025-05-12 02:04:52.452 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 02:04:52.894 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 02:04:55.608 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 02:04:56.073 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 02:04:56.711 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 02:05:10.549 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 2 entries for projects database
+2025-05-12 02:05:10.896 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Owner is expected to be people.
+2025-05-12 02:05:11.347 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Owner is expected to be people.
+2025-05-12 02:05:11.647 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 5 entries for todo database
+2025-05-12 02:05:37.816 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 1 entries for lifelog database
+2025-05-12 02:05:40.702 | INFO     | limitless_lifelog.__main__:main:269 - Notion update completed: {'created': 10, 'updated': 0, 'failed': 7}
+2025-05-12 02:05:40.703 | INFO     | limitless_lifelog.__main__:main:277 - Updated last run timestamp
+2025-05-12 02:05:40.703 | INFO     | limitless_lifelog.__main__:main:279 - Process completed successfully
+2025-05-12 02:13:47.615 | INFO     | limitless_lifelog.__main__:main:141 - Starting Limitless Lifelog v0.1.0
+2025-05-12 02:13:47.615 | INFO     | limitless_lifelog.__main__:main:159 - Processing transcripts from the past 1 days
+2025-05-12 02:13:48.597 | INFO     | limitless_lifelog.__main__:main:183 - Fetching transcripts from Limitless API
+2025-05-12 02:14:03.651 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:234 - Retrieved 25 transcripts
+2025-05-12 02:14:03.651 | INFO     | limitless_lifelog.__main__:main:185 - Retrieved 25 transcripts
+2025-05-12 02:14:03.651 | INFO     | limitless_lifelog.__main__:main:198 - Processing 25 transcripts
+2025-05-12 02:14:03.691 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: 9beW7SRqHpxGiCvOpMb8
+2025-05-12 02:14:03.692 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: SLL5v27yPoTJ8A3HBzQe
+2025-05-12 02:14:03.692 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: Xsepy6UWD9Fac4LPSMRP
+2025-05-12 02:14:03.692 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: IIykEeMjCFDt044bFIOW
+2025-05-12 02:14:03.692 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: gNO38fAnFlivybCjZeEm
+2025-05-12 02:14:03.693 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: TjI24qUdpekQSXnLL1dS
+2025-05-12 02:14:03.693 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: BdmUbEwbXW5a6yjX3GC5
+2025-05-12 02:14:03.693 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: jmDycGGHctOkFi24lZRV
+2025-05-12 02:14:03.693 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: F2xWAcUUcRSx6CtA7chh
+2025-05-12 02:14:03.694 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: ITsKNxCBPRQG6BTUGme0
+2025-05-12 02:14:03.694 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: c1CZ7FNPGZGxWxmIM5P5
+2025-05-12 02:14:03.694 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: pItKcwxNsbqhj3VEHnpp
+2025-05-12 02:14:03.695 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: ZzbFCyQvK0fjg94iRYl9
+2025-05-12 02:14:03.695 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: Wvjzz6AQQrQFcQqymnox
+2025-05-12 02:14:03.695 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: iyvfmLmTRweif5fqMq3Z
+2025-05-12 02:14:03.695 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: fdz1mR0eaIQX8oXhKyVs
+2025-05-12 02:14:03.695 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: RnzPRpctZw96cVnaTVD2
+2025-05-12 02:14:03.696 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: RyQUlUabZq9AnVczUXt2
+2025-05-12 02:14:03.696 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: cgh2IIiZRcp9U725Wo2b
+2025-05-12 02:14:03.696 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: T6gJWR3NhACUYayw0KZ7
+2025-05-12 02:14:03.697 | INFO     | limitless_lifelog.__main__:main:250 - 20 transcripts remain after filtering
+2025-05-12 02:14:03.698 | INFO     | limitless_lifelog.__main__:main:255 - Archived 20 transcripts to the file system
+2025-05-12 02:17:19.408 | INFO     | limitless_lifelog.__main__:main:259 - Extracted 25 actionable items
+2025-05-12 02:17:19.410 | INFO     | limitless_lifelog.__main__:main:267 - Updating Notion databases
+2025-05-12 02:17:19.410 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 17 entries for tasks database
+2025-05-12 02:17:19.848 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 02:17:21.000 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 02:17:21.514 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 02:17:21.965 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 02:17:22.575 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 02:17:24.019 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 02:17:24.491 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Assignee is expected to be people.
+2025-05-12 02:17:56.006 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 6 entries for projects database
+2025-05-12 02:17:56.391 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Owner is expected to be people.
+2025-05-12 02:17:56.860 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Owner is expected to be people.
+2025-05-12 02:17:57.310 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Owner is expected to be people.
+2025-05-12 02:17:57.778 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Owner is expected to be people.
+2025-05-12 02:17:58.765 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Owner is expected to be people.
+2025-05-12 02:17:59.219 | ERROR    | limitless_lifelog.notion.client:update_databases:252 - Error creating Notion entry: Owner is expected to be people.
+2025-05-12 02:17:59.520 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 9 entries for todo database
+2025-05-12 02:18:23.932 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 1 entries for lifelog database
+2025-05-12 02:18:24.831 | INFO     | limitless_lifelog.__main__:main:269 - Notion update completed: {'created': 20, 'updated': 0, 'failed': 13}
+2025-05-12 02:18:24.832 | INFO     | limitless_lifelog.__main__:main:277 - Updated last run timestamp
+2025-05-12 02:18:24.832 | INFO     | limitless_lifelog.__main__:main:279 - Process completed successfully
+2025-05-12 02:23:20.811 | INFO     | limitless_lifelog.__main__:main:141 - Starting Limitless Lifelog v0.1.0
+2025-05-12 02:23:20.811 | INFO     | limitless_lifelog.__main__:main:159 - Processing transcripts from the past 1 days
+2025-05-12 02:23:20.812 | DEBUG    | limitless_lifelog.limitless.api_client:__init__:77 - Using authentication method: all
+2025-05-12 02:23:21.769 | INFO     | limitless_lifelog.__main__:main:183 - Fetching transcripts from Limitless API
+2025-05-12 02:23:21.769 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:108 - Using base lifelogs endpoint: https://api.limitless.ai/v1/lifelogs
+2025-05-12 02:23:21.769 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:132 - Fetching page 1 of transcripts from https://api.limitless.ai/v1/lifelogs
+2025-05-12 02:23:25.740 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:143 - Found lifelogs data in API response
+2025-05-12 02:23:25.740 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:148 - First transcript keys: ['contents', 'id', 'markdown', 'title', 'startTime', 'endTime']
+2025-05-12 02:23:25.741 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:162 - Processed first transcript content: The speakers transition to discussing the potential benefits of psychedelics, particularly for end-o...
+2025-05-12 02:23:25.741 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:234 - Retrieved 25 transcripts
+2025-05-12 02:23:25.741 | INFO     | limitless_lifelog.__main__:main:185 - Retrieved 25 transcripts
+2025-05-12 02:23:25.741 | INFO     | limitless_lifelog.__main__:main:198 - Processing 25 transcripts
+2025-05-12 02:23:25.741 | DEBUG    | limitless_lifelog.transcripts.processor:set_archive_dir:39 - Set archive directory to: ./transcripts_archive
+2025-05-12 02:23:25.783 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:273 - Transcript 9beW7SRqHpxGiCvOpMb8 content: The speakers transition to discussing the potential benefits of psychedelics, particularly for end-of-life care and palliative care....
+2025-05-12 02:23:25.784 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: 9beW7SRqHpxGiCvOpMb8
+2025-05-12 02:23:25.784 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:273 - Transcript SLL5v27yPoTJ8A3HBzQe content: The speakers transition to discussing the potential benefits of psychedelics and the need for therapeutic help....
+2025-05-12 02:23:25.784 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: SLL5v27yPoTJ8A3HBzQe
+2025-05-12 02:23:25.784 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:273 - Transcript Xsepy6UWD9Fac4LPSMRP content: A conversation about the frustration of slow progress in legalizing MDMA, the potential benefits of psychedelics, and the counterproductive nature of the drug war....
+2025-05-12 02:23:25.784 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: Xsepy6UWD9Fac4LPSMRP
+2025-05-12 02:23:25.785 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:273 - Transcript IIykEeMjCFDt044bFIOW content: A discussion about a trip to Ukraine, the emotional impact of seeing photos of the deceased on graves, and the slow progress of legalizing MDMA....
+2025-05-12 02:23:25.785 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: IIykEeMjCFDt044bFIOW
+2025-05-12 02:23:25.785 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:215 - Found action keyword 'call' in transcript gNO38fAnFlivybCjZeEm
+2025-05-12 02:23:25.785 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:273 - Transcript gNO38fAnFlivybCjZeEm content: Conversation shifts to running a model locally to avoid charges....
+2025-05-12 02:23:25.785 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: gNO38fAnFlivybCjZeEm
+2025-05-12 02:23:25.785 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:273 - Transcript TjI24qUdpekQSXnLL1dS content: A discussion about love, patience, the studio game, watching something for 50 years, a number 27, pants, a series on Friday, a first pitch, showing the kitchen, and putting something on the table....
+2025-05-12 02:23:25.786 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: TjI24qUdpekQSXnLL1dS
+2025-05-12 02:23:25.786 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:108 - Skipping short transcript: xFrfLw3A97JKo1mIiZ3S
+2025-05-12 02:23:25.786 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:273 - Transcript BdmUbEwbXW5a6yjX3GC5 content: Commentary on a motorcycle race, focusing on rider positions, tire strategies, and potential outcomes....
+2025-05-12 02:23:25.786 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: BdmUbEwbXW5a6yjX3GC5
+2025-05-12 02:23:25.786 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:273 - Transcript jmDycGGHctOkFi24lZRV content: Conversation shifts to a discussion about physical intimacy and emotional connection....
+2025-05-12 02:23:25.787 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: jmDycGGHctOkFi24lZRV
+2025-05-12 02:23:25.787 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:108 - Skipping short transcript: MXTnkGWy6GqdsweCclOF
+2025-05-12 02:23:25.787 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:273 - Transcript F2xWAcUUcRSx6CtA7chh content: Commentary on a motorcycle race, covering the initial start, penalties, and a crash....
+2025-05-12 02:23:25.787 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: F2xWAcUUcRSx6CtA7chh
+2025-05-12 02:23:25.787 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:215 - Found action keyword 'action' in transcript ITsKNxCBPRQG6BTUGme0
+2025-05-12 02:23:25.788 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:273 - Transcript ITsKNxCBPRQG6BTUGme0 content: Someone explains how to provide feedback while watching videos, then the speakers discuss various topics including rules, reactions to content, and a show release....
+2025-05-12 02:23:25.788 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: ITsKNxCBPRQG6BTUGme0
+2025-05-12 02:23:25.788 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:273 - Transcript c1CZ7FNPGZGxWxmIM5P5 content: Brief, unrelated comments after a period of silence....
+2025-05-12 02:23:25.788 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: c1CZ7FNPGZGxWxmIM5P5
+2025-05-12 02:23:25.789 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:273 - Transcript pItKcwxNsbqhj3VEHnpp content: A user asks questions about Power Automate, file renaming, and running automations....
+2025-05-12 02:23:25.789 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: pItKcwxNsbqhj3VEHnpp
+2025-05-12 02:23:25.789 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:273 - Transcript ZzbFCyQvK0fjg94iRYl9 content: Commentary on the upcoming MotoGP race at Le Mans, including weather conditions and rider preparations....
+2025-05-12 02:23:25.789 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: ZzbFCyQvK0fjg94iRYl9
+2025-05-12 02:23:25.789 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:273 - Transcript Wvjzz6AQQrQFcQqymnox content: Commentators discuss the challenging weather conditions and the riders' preparations for the upcoming race....
+2025-05-12 02:23:25.790 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: Wvjzz6AQQrQFcQqymnox
+2025-05-12 02:23:25.790 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:215 - Found action keyword 'check' in transcript iyvfmLmTRweif5fqMq3Z
+2025-05-12 02:23:25.790 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:273 - Transcript iyvfmLmTRweif5fqMq3Z content: The conversation shifts to checking in on someone and a discussion about physical affection....
+2025-05-12 02:23:25.790 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: iyvfmLmTRweif5fqMq3Z
+2025-05-12 02:23:25.790 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:273 - Transcript fdz1mR0eaIQX8oXhKyVs content: Brief conversation followed by discussion about relaxation and driving....
+2025-05-12 02:23:25.790 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: fdz1mR0eaIQX8oXhKyVs
+2025-05-12 02:23:25.791 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:273 - Transcript RnzPRpctZw96cVnaTVD2 content: Discussion about motorsports racing at Le Mans and the French Grand Prix....
+2025-05-12 02:23:25.791 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: RnzPRpctZw96cVnaTVD2
+2025-05-12 02:23:25.791 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:108 - Skipping short transcript: rryZ80J31AG9i0ry20iS
+2025-05-12 02:23:25.791 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:108 - Skipping short transcript: fI3SDfAzIq8JmKHwG4t9
+2025-05-12 02:23:25.791 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:273 - Transcript RyQUlUabZq9AnVczUXt2 content: Conversation shifts to discussing friends and social connections....
+2025-05-12 02:23:25.791 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: RyQUlUabZq9AnVczUXt2
+2025-05-12 02:23:25.792 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:273 - Transcript cgh2IIiZRcp9U725Wo2b content: Conversation shifts to family inquiries about having children and marriage....
+2025-05-12 02:23:25.792 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: cgh2IIiZRcp9U725Wo2b
+2025-05-12 02:23:25.792 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:273 - Transcript T6gJWR3NhACUYayw0KZ7 content: Catching up and discussing business ventures, including challenges with space and insurance....
+2025-05-12 02:23:25.792 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:287 - Including relevant transcript: T6gJWR3NhACUYayw0KZ7
+2025-05-12 02:23:25.792 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:108 - Skipping short transcript: AyLdZLP2xQWOGxoRpue5
+2025-05-12 02:23:25.792 | INFO     | limitless_lifelog.__main__:main:250 - 20 transcripts remain after filtering
+2025-05-12 02:23:25.793 | DEBUG    | limitless_lifelog.transcripts.processor:archive_all_transcripts:396 - Transcript 9beW7SRqHpxGiCvOpMb8 already archived, skipping
+2025-05-12 02:23:25.793 | DEBUG    | limitless_lifelog.transcripts.processor:archive_all_transcripts:396 - Transcript SLL5v27yPoTJ8A3HBzQe already archived, skipping
+2025-05-12 02:23:25.793 | DEBUG    | limitless_lifelog.transcripts.processor:archive_all_transcripts:396 - Transcript Xsepy6UWD9Fac4LPSMRP already archived, skipping
+2025-05-12 02:23:25.793 | DEBUG    | limitless_lifelog.transcripts.processor:archive_all_transcripts:396 - Transcript IIykEeMjCFDt044bFIOW already archived, skipping
+2025-05-12 02:23:25.793 | DEBUG    | limitless_lifelog.transcripts.processor:archive_all_transcripts:396 - Transcript gNO38fAnFlivybCjZeEm already archived, skipping
+2025-05-12 02:23:25.793 | DEBUG    | limitless_lifelog.transcripts.processor:archive_all_transcripts:396 - Transcript TjI24qUdpekQSXnLL1dS already archived, skipping
+2025-05-12 02:23:25.794 | DEBUG    | limitless_lifelog.transcripts.processor:archive_all_transcripts:396 - Transcript BdmUbEwbXW5a6yjX3GC5 already archived, skipping
+2025-05-12 02:23:25.794 | DEBUG    | limitless_lifelog.transcripts.processor:archive_all_transcripts:396 - Transcript jmDycGGHctOkFi24lZRV already archived, skipping
+2025-05-12 02:23:25.794 | DEBUG    | limitless_lifelog.transcripts.processor:archive_all_transcripts:396 - Transcript F2xWAcUUcRSx6CtA7chh already archived, skipping
+2025-05-12 02:23:25.794 | DEBUG    | limitless_lifelog.transcripts.processor:archive_all_transcripts:396 - Transcript ITsKNxCBPRQG6BTUGme0 already archived, skipping
+2025-05-12 02:23:25.794 | DEBUG    | limitless_lifelog.transcripts.processor:archive_all_transcripts:396 - Transcript c1CZ7FNPGZGxWxmIM5P5 already archived, skipping
+2025-05-12 02:23:25.794 | DEBUG    | limitless_lifelog.transcripts.processor:archive_all_transcripts:396 - Transcript pItKcwxNsbqhj3VEHnpp already archived, skipping
+2025-05-12 02:23:25.794 | DEBUG    | limitless_lifelog.transcripts.processor:archive_all_transcripts:396 - Transcript ZzbFCyQvK0fjg94iRYl9 already archived, skipping
+2025-05-12 02:23:25.794 | DEBUG    | limitless_lifelog.transcripts.processor:archive_all_transcripts:396 - Transcript Wvjzz6AQQrQFcQqymnox already archived, skipping
+2025-05-12 02:23:25.795 | DEBUG    | limitless_lifelog.transcripts.processor:archive_all_transcripts:396 - Transcript iyvfmLmTRweif5fqMq3Z already archived, skipping
+2025-05-12 02:23:25.795 | DEBUG    | limitless_lifelog.transcripts.processor:archive_all_transcripts:396 - Transcript fdz1mR0eaIQX8oXhKyVs already archived, skipping
+2025-05-12 02:23:25.795 | DEBUG    | limitless_lifelog.transcripts.processor:archive_all_transcripts:396 - Transcript RnzPRpctZw96cVnaTVD2 already archived, skipping
+2025-05-12 02:23:25.795 | DEBUG    | limitless_lifelog.transcripts.processor:archive_all_transcripts:396 - Transcript RyQUlUabZq9AnVczUXt2 already archived, skipping
+2025-05-12 02:23:25.795 | DEBUG    | limitless_lifelog.transcripts.processor:archive_all_transcripts:396 - Transcript cgh2IIiZRcp9U725Wo2b already archived, skipping
+2025-05-12 02:23:25.795 | DEBUG    | limitless_lifelog.transcripts.processor:archive_all_transcripts:396 - Transcript T6gJWR3NhACUYayw0KZ7 already archived, skipping
+2025-05-12 02:23:25.796 | INFO     | limitless_lifelog.__main__:main:255 - Archived 20 transcripts to the file system
+2025-05-12 02:25:56.338 | INFO     | limitless_lifelog.__main__:main:259 - Extracted 8 actionable items
+2025-05-12 02:25:56.338 | INFO     | limitless_lifelog.__main__:main:267 - Updating Notion databases
+2025-05-12 02:25:56.339 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 6 entries for tasks database
+2025-05-12 02:25:56.692 | DEBUG    | limitless_lifelog.notion.client:update_databases:73 - Database tasks has properties: ['Delay', 'Completed on', 'Task name', 'Tags', 'Assignee', 'Status', 'Due', 'Priority', 'Sub-tasks', 'Parent-task', 'Project']
+2025-05-12 02:25:56.693 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Title' to 'Task name'
+2025-05-12 02:25:56.693 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:401 - Converting select to empty relation for property 'Project'
+2025-05-12 02:25:58.288 | DEBUG    | limitless_lifelog.notion.client:_add_comment:282 - Added comment to page 1f1e1347-4afd-81cf-90e5-e35bb033a86e
+2025-05-12 02:25:58.589 | DEBUG    | limitless_lifelog.notion.client:_sanitize_date_properties:488 - Fixing empty start date for Due Date
+2025-05-12 02:25:58.589 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Title' to 'Task name'
+2025-05-12 02:25:58.589 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:401 - Converting select to empty relation for property 'Project'
+2025-05-12 02:26:00.753 | DEBUG    | limitless_lifelog.notion.client:_add_comment:282 - Added comment to page 1f1e1347-4afd-8198-a63a-e6bea0339108
+2025-05-12 02:26:01.054 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Title' to 'Task name'
+2025-05-12 02:26:04.165 | DEBUG    | limitless_lifelog.notion.client:_add_comment:282 - Added comment to page 1f1e1347-4afd-81c9-b86a-d14b462a98f0
+2025-05-12 02:26:04.466 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Title' to 'Task name'
+2025-05-12 02:26:05.655 | DEBUG    | limitless_lifelog.notion.client:_add_comment:282 - Added comment to page 1f1e1347-4afd-8141-ad56-ddf2f52fae9e
+2025-05-12 02:26:05.956 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Title' to 'Task name'
+2025-05-12 02:26:07.384 | DEBUG    | limitless_lifelog.notion.client:_add_comment:282 - Added comment to page 1f1e1347-4afd-81ec-acb7-ddacfbbbbc5c
+2025-05-12 02:26:07.685 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Title' to 'Task name'
+2025-05-12 02:26:10.255 | DEBUG    | limitless_lifelog.notion.client:_add_comment:282 - Added comment to page 1f1e1347-4afd-81d2-bc17-d069358b5613
+2025-05-12 02:26:10.556 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 2 entries for projects database
+2025-05-12 02:26:10.946 | DEBUG    | limitless_lifelog.notion.client:update_databases:73 - Database projects has properties: ['Sign off project?', 'Project name', 'Owner', 'Status', 'Completion', 'Priority', 'Dates', 'Summary', 'Tasks', 'Is Blocking', 'Blocked By']
+2025-05-12 02:26:10.947 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Name' to 'Project name'
+2025-05-12 02:26:10.947 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:419 - Using default status 'Planning' for property 'Status'
+2025-05-12 02:26:25.794 | DEBUG    | limitless_lifelog.notion.client:_add_comment:282 - Added comment to page 1f1e1347-4afd-8134-9070-c3a68b549220
+2025-05-12 02:26:26.095 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Name' to 'Project name'
+2025-05-12 02:26:26.095 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:419 - Using default status 'Planning' for property 'Status'
+2025-05-12 02:26:27.893 | DEBUG    | limitless_lifelog.notion.client:_add_comment:282 - Added comment to page 1f1e1347-4afd-81a1-8733-e91ac4df70b5
+2025-05-12 02:26:28.194 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 2 entries for todo database
+2025-05-12 02:26:28.651 | DEBUG    | limitless_lifelog.notion.client:update_databases:73 - Database todo has properties: ['To-Do Completion', 'Days remaining', 'Status', 'Multi-select', 'Due date', 'Priority', 'Name']
+2025-05-12 02:26:28.652 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Title' to 'Name'
+2025-05-12 02:26:39.301 | DEBUG    | limitless_lifelog.notion.client:_add_comment:282 - Added comment to page 1f1e1347-4afd-817a-a9d8-cedf8bca8aec
+2025-05-12 02:26:39.602 | DEBUG    | limitless_lifelog.notion.client:_sanitize_date_properties:488 - Fixing empty start date for Due
+2025-05-12 02:26:39.602 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Title' to 'Name'
+2025-05-12 02:26:40.732 | DEBUG    | limitless_lifelog.notion.client:_add_comment:282 - Added comment to page 1f1e1347-4afd-8130-9332-e8ab59deac50
+2025-05-12 02:26:41.033 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 1 entries for lifelog database
+2025-05-12 02:26:41.696 | DEBUG    | limitless_lifelog.notion.client:update_databases:73 - Database lifelog has properties: ['Description', 'Assignee', 'Due Date', 'Priority', 'Tags', 'Status', 'Type', 'Name']
+2025-05-12 02:26:41.697 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Entry' to 'Name'
+2025-05-12 02:26:42.375 | INFO     | limitless_lifelog.__main__:main:269 - Notion update completed: {'created': 11, 'updated': 0, 'failed': 0}
+2025-05-12 02:26:42.375 | INFO     | limitless_lifelog.__main__:main:277 - Updated last run timestamp
+2025-05-12 02:26:42.376 | INFO     | limitless_lifelog.__main__:main:279 - Process completed successfully
+2025-05-12 02:46:01.037 | INFO     | limitless_lifelog.__main__:main:145 - Starting Limitless Lifelog v0.1.0
+2025-05-12 02:46:01.037 | INFO     | limitless_lifelog.__main__:main:163 - Processing transcripts from the past 1 days
+2025-05-12 02:46:01.038 | DEBUG    | limitless_lifelog.limitless.api_client:__init__:77 - Using authentication method: all
+2025-05-12 02:46:02.027 | INFO     | limitless_lifelog.__main__:main:193 - Fetching transcripts from Limitless API
+2025-05-12 02:46:02.027 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:108 - Using base lifelogs endpoint: https://api.limitless.ai/v1/lifelogs
+2025-05-12 02:46:02.027 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:132 - Fetching page 1 of transcripts from https://api.limitless.ai/v1/lifelogs
+2025-05-12 02:46:06.184 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:143 - Found lifelogs data in API response
+2025-05-12 02:46:06.185 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:148 - First transcript keys: ['contents', 'id', 'markdown', 'title', 'startTime', 'endTime']
+2025-05-12 02:46:06.185 | DEBUG    | limitless_lifelog.limitless.api_client:fetch_transcripts:162 - Processed first transcript content: The speakers transition to discussing the potential benefits of psychedelics, particularly for end-o...
+2025-05-12 02:46:06.185 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:234 - Retrieved 25 transcripts
+2025-05-12 02:46:06.185 | INFO     | limitless_lifelog.__main__:main:195 - Retrieved 25 transcripts
+2025-05-12 02:46:06.185 | INFO     | limitless_lifelog.__main__:main:208 - Processing 25 transcripts
+2025-05-12 02:46:06.185 | DEBUG    | limitless_lifelog.transcripts.processor:set_archive_dir:41 - Set archive directory to: ./transcripts_archive
+2025-05-12 02:46:06.228 | DEBUG    | limitless_lifelog.utils.keywords_config:_load_config:43 - Loaded keywords configuration from /home/craigmbrown/Project/limitless-lifelog/specs/config/keywords.json
+2025-05-12 02:46:06.229 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:256 - Transcript 9beW7SRqHpxGiCvOpMb8 content: The speakers transition to discussing the potential benefits of psychedelics, particularly for end-of-life care and palliative care....
+2025-05-12 02:46:06.229 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: 9beW7SRqHpxGiCvOpMb8
+2025-05-12 02:46:06.229 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:256 - Transcript SLL5v27yPoTJ8A3HBzQe content: The speakers transition to discussing the potential benefits of psychedelics and the need for therapeutic help....
+2025-05-12 02:46:06.229 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: SLL5v27yPoTJ8A3HBzQe
+2025-05-12 02:46:06.230 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:256 - Transcript Xsepy6UWD9Fac4LPSMRP content: A conversation about the frustration of slow progress in legalizing MDMA, the potential benefits of psychedelics, and the counterproductive nature of the drug war....
+2025-05-12 02:46:06.230 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: Xsepy6UWD9Fac4LPSMRP
+2025-05-12 02:46:06.230 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:256 - Transcript IIykEeMjCFDt044bFIOW content: A discussion about a trip to Ukraine, the emotional impact of seeing photos of the deceased on graves, and the slow progress of legalizing MDMA....
+2025-05-12 02:46:06.230 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: IIykEeMjCFDt044bFIOW
+2025-05-12 02:46:06.231 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:198 - Found action keyword 'call' in transcript gNO38fAnFlivybCjZeEm
+2025-05-12 02:46:06.231 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:256 - Transcript gNO38fAnFlivybCjZeEm content: Conversation shifts to running a model locally to avoid charges....
+2025-05-12 02:46:06.231 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: gNO38fAnFlivybCjZeEm
+2025-05-12 02:46:06.232 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:256 - Transcript TjI24qUdpekQSXnLL1dS content: A discussion about love, patience, the studio game, watching something for 50 years, a number 27, pants, a series on Friday, a first pitch, showing the kitchen, and putting something on the table....
+2025-05-12 02:46:06.232 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: TjI24qUdpekQSXnLL1dS
+2025-05-12 02:46:06.232 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:95 - Skipping short transcript: xFrfLw3A97JKo1mIiZ3S
+2025-05-12 02:46:06.232 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:256 - Transcript BdmUbEwbXW5a6yjX3GC5 content: Commentary on a motorcycle race, focusing on rider positions, tire strategies, and potential outcomes....
+2025-05-12 02:46:06.232 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: BdmUbEwbXW5a6yjX3GC5
+2025-05-12 02:46:06.233 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:256 - Transcript jmDycGGHctOkFi24lZRV content: Conversation shifts to a discussion about physical intimacy and emotional connection....
+2025-05-12 02:46:06.233 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: jmDycGGHctOkFi24lZRV
+2025-05-12 02:46:06.233 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:95 - Skipping short transcript: MXTnkGWy6GqdsweCclOF
+2025-05-12 02:46:06.233 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:256 - Transcript F2xWAcUUcRSx6CtA7chh content: Commentary on a motorcycle race, covering the initial start, penalties, and a crash....
+2025-05-12 02:46:06.233 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: F2xWAcUUcRSx6CtA7chh
+2025-05-12 02:46:06.233 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:198 - Found action keyword 'action' in transcript ITsKNxCBPRQG6BTUGme0
+2025-05-12 02:46:06.234 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:198 - Found action keyword 'release' in transcript ITsKNxCBPRQG6BTUGme0
+2025-05-12 02:46:06.234 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:256 - Transcript ITsKNxCBPRQG6BTUGme0 content: Someone explains how to provide feedback while watching videos, then the speakers discuss various topics including rules, reactions to content, and a show release....
+2025-05-12 02:46:06.234 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: ITsKNxCBPRQG6BTUGme0
+2025-05-12 02:46:06.234 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:256 - Transcript c1CZ7FNPGZGxWxmIM5P5 content: Brief, unrelated comments after a period of silence....
+2025-05-12 02:46:06.235 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: c1CZ7FNPGZGxWxmIM5P5
+2025-05-12 02:46:06.235 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:256 - Transcript pItKcwxNsbqhj3VEHnpp content: A user asks questions about Power Automate, file renaming, and running automations....
+2025-05-12 02:46:06.235 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: pItKcwxNsbqhj3VEHnpp
+2025-05-12 02:46:06.235 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:256 - Transcript ZzbFCyQvK0fjg94iRYl9 content: Commentary on the upcoming MotoGP race at Le Mans, including weather conditions and rider preparations....
+2025-05-12 02:46:06.235 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: ZzbFCyQvK0fjg94iRYl9
+2025-05-12 02:46:06.236 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:256 - Transcript Wvjzz6AQQrQFcQqymnox content: Commentators discuss the challenging weather conditions and the riders' preparations for the upcoming race....
+2025-05-12 02:46:06.236 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: Wvjzz6AQQrQFcQqymnox
+2025-05-12 02:46:06.236 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:198 - Found action keyword 'check' in transcript iyvfmLmTRweif5fqMq3Z
+2025-05-12 02:46:06.236 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:256 - Transcript iyvfmLmTRweif5fqMq3Z content: The conversation shifts to checking in on someone and a discussion about physical affection....
+2025-05-12 02:46:06.236 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: iyvfmLmTRweif5fqMq3Z
+2025-05-12 02:46:06.237 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:256 - Transcript fdz1mR0eaIQX8oXhKyVs content: Brief conversation followed by discussion about relaxation and driving....
+2025-05-12 02:46:06.237 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: fdz1mR0eaIQX8oXhKyVs
+2025-05-12 02:46:06.237 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:256 - Transcript RnzPRpctZw96cVnaTVD2 content: Discussion about motorsports racing at Le Mans and the French Grand Prix....
+2025-05-12 02:46:06.237 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: RnzPRpctZw96cVnaTVD2
+2025-05-12 02:46:06.237 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:95 - Skipping short transcript: rryZ80J31AG9i0ry20iS
+2025-05-12 02:46:06.237 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:95 - Skipping short transcript: fI3SDfAzIq8JmKHwG4t9
+2025-05-12 02:46:06.237 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:256 - Transcript RyQUlUabZq9AnVczUXt2 content: Conversation shifts to discussing friends and social connections....
+2025-05-12 02:46:06.238 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: RyQUlUabZq9AnVczUXt2
+2025-05-12 02:46:06.238 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:256 - Transcript cgh2IIiZRcp9U725Wo2b content: Conversation shifts to family inquiries about having children and marriage....
+2025-05-12 02:46:06.238 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: cgh2IIiZRcp9U725Wo2b
+2025-05-12 02:46:06.238 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:256 - Transcript T6gJWR3NhACUYayw0KZ7 content: Catching up and discussing business ventures, including challenges with space and insurance....
+2025-05-12 02:46:06.238 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: T6gJWR3NhACUYayw0KZ7
+2025-05-12 02:46:06.239 | DEBUG    | limitless_lifelog.transcripts.processor:filter_transcripts:95 - Skipping short transcript: AyLdZLP2xQWOGxoRpue5
+2025-05-12 02:46:06.239 | INFO     | limitless_lifelog.__main__:main:260 - 20 transcripts remain after filtering
+2025-05-12 02:46:06.242 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:405 - Archived transcript 9beW7SRqHpxGiCvOpMb8 to transcripts_archive/transcripts/20250512-024606_9beW7SRqHpxGiCvOpMb8.json
+2025-05-12 02:46:06.245 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:405 - Archived transcript SLL5v27yPoTJ8A3HBzQe to transcripts_archive/transcripts/20250512-024606_SLL5v27yPoTJ8A3HBzQe.json
+2025-05-12 02:46:06.247 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:405 - Archived transcript Xsepy6UWD9Fac4LPSMRP to transcripts_archive/transcripts/20250512-024606_Xsepy6UWD9Fac4LPSMRP.json
+2025-05-12 02:46:06.248 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:405 - Archived transcript IIykEeMjCFDt044bFIOW to transcripts_archive/transcripts/20250512-024606_IIykEeMjCFDt044bFIOW.json
+2025-05-12 02:46:06.249 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:405 - Archived transcript gNO38fAnFlivybCjZeEm to transcripts_archive/transcripts/20250512-024606_gNO38fAnFlivybCjZeEm.json
+2025-05-12 02:46:06.251 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:405 - Archived transcript TjI24qUdpekQSXnLL1dS to transcripts_archive/transcripts/20250512-024606_TjI24qUdpekQSXnLL1dS.json
+2025-05-12 02:46:06.252 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:405 - Archived transcript BdmUbEwbXW5a6yjX3GC5 to transcripts_archive/transcripts/20250512-024606_BdmUbEwbXW5a6yjX3GC5.json
+2025-05-12 02:46:06.253 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:405 - Archived transcript jmDycGGHctOkFi24lZRV to transcripts_archive/transcripts/20250512-024606_jmDycGGHctOkFi24lZRV.json
+2025-05-12 02:46:06.255 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:405 - Archived transcript F2xWAcUUcRSx6CtA7chh to transcripts_archive/transcripts/20250512-024606_F2xWAcUUcRSx6CtA7chh.json
+2025-05-12 02:46:06.256 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:405 - Archived transcript ITsKNxCBPRQG6BTUGme0 to transcripts_archive/transcripts/20250512-024606_ITsKNxCBPRQG6BTUGme0.json
+2025-05-12 02:46:06.257 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:405 - Archived transcript c1CZ7FNPGZGxWxmIM5P5 to transcripts_archive/transcripts/20250512-024606_c1CZ7FNPGZGxWxmIM5P5.json
+2025-05-12 02:46:06.258 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:405 - Archived transcript pItKcwxNsbqhj3VEHnpp to transcripts_archive/transcripts/20250512-024606_pItKcwxNsbqhj3VEHnpp.json
+2025-05-12 02:46:06.260 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:405 - Archived transcript ZzbFCyQvK0fjg94iRYl9 to transcripts_archive/transcripts/20250512-024606_ZzbFCyQvK0fjg94iRYl9.json
+2025-05-12 02:46:06.262 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:405 - Archived transcript Wvjzz6AQQrQFcQqymnox to transcripts_archive/transcripts/20250512-024606_Wvjzz6AQQrQFcQqymnox.json
+2025-05-12 02:46:06.263 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:405 - Archived transcript iyvfmLmTRweif5fqMq3Z to transcripts_archive/transcripts/20250512-024606_iyvfmLmTRweif5fqMq3Z.json
+2025-05-12 02:46:06.266 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:405 - Archived transcript fdz1mR0eaIQX8oXhKyVs to transcripts_archive/transcripts/20250512-024606_fdz1mR0eaIQX8oXhKyVs.json
+2025-05-12 02:46:06.267 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:405 - Archived transcript RnzPRpctZw96cVnaTVD2 to transcripts_archive/transcripts/20250512-024606_RnzPRpctZw96cVnaTVD2.json
+2025-05-12 02:46:06.268 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:405 - Archived transcript RyQUlUabZq9AnVczUXt2 to transcripts_archive/transcripts/20250512-024606_RyQUlUabZq9AnVczUXt2.json
+2025-05-12 02:46:06.272 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:405 - Archived transcript cgh2IIiZRcp9U725Wo2b to transcripts_archive/transcripts/20250512-024606_cgh2IIiZRcp9U725Wo2b.json
+2025-05-12 02:46:06.277 | INFO     | limitless_lifelog.transcripts.processor:archive_all_transcripts:405 - Archived transcript T6gJWR3NhACUYayw0KZ7 to transcripts_archive/transcripts/20250512-024606_T6gJWR3NhACUYayw0KZ7.json
+2025-05-12 02:46:06.277 | INFO     | limitless_lifelog.__main__:main:265 - Archived 20 transcripts to the file system
+2025-05-12 02:48:48.621 | INFO     | limitless_lifelog.__main__:main:269 - Extracted 9 actionable items
+2025-05-12 02:48:48.622 | DEBUG    | limitless_lifelog.utils.keywords_config:_load_config:43 - Loaded keywords configuration from /home/craigmbrown/Project/limitless-lifelog/specs/config/keywords.json
+2025-05-12 02:48:48.623 | DEBUG    | limitless_lifelog.utils.keywords_config:_load_config:43 - Loaded keywords configuration from /home/craigmbrown/Project/limitless-lifelog/specs/config/keywords.json
+2025-05-12 02:48:48.624 | DEBUG    | limitless_lifelog.utils.keywords_config:_load_config:43 - Loaded keywords configuration from /home/craigmbrown/Project/limitless-lifelog/specs/config/keywords.json
+2025-05-12 02:48:48.625 | DEBUG    | limitless_lifelog.utils.keywords_config:_load_config:43 - Loaded keywords configuration from /home/craigmbrown/Project/limitless-lifelog/specs/config/keywords.json
+2025-05-12 02:48:48.625 | DEBUG    | limitless_lifelog.utils.keywords_config:_load_config:43 - Loaded keywords configuration from /home/craigmbrown/Project/limitless-lifelog/specs/config/keywords.json
+2025-05-12 02:48:48.626 | DEBUG    | limitless_lifelog.utils.keywords_config:_load_config:43 - Loaded keywords configuration from /home/craigmbrown/Project/limitless-lifelog/specs/config/keywords.json
+2025-05-12 02:48:48.627 | DEBUG    | limitless_lifelog.utils.keywords_config:_load_config:43 - Loaded keywords configuration from /home/craigmbrown/Project/limitless-lifelog/specs/config/keywords.json
+2025-05-12 02:48:48.627 | INFO     | limitless_lifelog.__main__:main:277 - Updating Notion databases
+2025-05-12 02:48:48.628 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 8 entries for tasks database
+2025-05-12 02:48:49.313 | DEBUG    | limitless_lifelog.notion.client:update_databases:73 - Database tasks has properties: ['Delay', 'Completed on', 'Task name', 'Tags', 'Assignee', 'Status', 'Due', 'Priority', 'Sub-tasks', 'Parent-task', 'Project']
+2025-05-12 02:48:49.313 | DEBUG    | limitless_lifelog.notion.client:_sanitize_date_properties:488 - Fixing empty start date for Due Date
+2025-05-12 02:48:49.313 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Title' to 'Task name'
+2025-05-12 02:48:49.313 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:401 - Converting select to empty relation for property 'Project'
+2025-05-12 02:48:54.524 | DEBUG    | limitless_lifelog.notion.client:_add_comment:282 - Added comment to page 1f1e1347-4afd-8150-9e8f-f730d0073773
+2025-05-12 02:48:54.825 | DEBUG    | limitless_lifelog.notion.client:_sanitize_date_properties:488 - Fixing empty start date for Due Date
+2025-05-12 02:48:54.825 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Title' to 'Task name'
+2025-05-12 02:48:54.825 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:401 - Converting select to empty relation for property 'Project'
+2025-05-12 02:48:56.398 | DEBUG    | limitless_lifelog.notion.client:_add_comment:282 - Added comment to page 1f1e1347-4afd-81ff-b022-d681688393db
+2025-05-12 02:48:56.699 | DEBUG    | limitless_lifelog.notion.client:_sanitize_date_properties:488 - Fixing empty start date for Due Date
+2025-05-12 02:48:56.699 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Title' to 'Task name'
+2025-05-12 02:48:56.699 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:401 - Converting select to empty relation for property 'Project'
+2025-05-12 02:49:04.456 | DEBUG    | limitless_lifelog.notion.client:_add_comment:282 - Added comment to page 1f1e1347-4afd-81df-9b53-dfa49530ff18
+2025-05-12 02:49:04.756 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Title' to 'Task name'
+2025-05-12 02:49:06.658 | DEBUG    | limitless_lifelog.notion.client:_add_comment:282 - Added comment to page 1f1e1347-4afd-813c-8c8f-c7555cd58867
+2025-05-12 02:49:06.958 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Title' to 'Task name'
+2025-05-12 02:49:09.659 | DEBUG    | limitless_lifelog.notion.client:_add_comment:282 - Added comment to page 1f1e1347-4afd-816f-a9ea-f2a69383a108
+2025-05-12 02:49:09.959 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Title' to 'Task name'
+2025-05-12 02:49:11.832 | DEBUG    | limitless_lifelog.notion.client:_add_comment:282 - Added comment to page 1f1e1347-4afd-81aa-ba63-e407feae2f94
+2025-05-12 02:49:12.133 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Title' to 'Task name'
+2025-05-12 02:49:13.808 | DEBUG    | limitless_lifelog.notion.client:_add_comment:282 - Added comment to page 1f1e1347-4afd-810d-80e3-d20e74a9c755
+2025-05-12 02:49:14.109 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Title' to 'Task name'
+2025-05-12 02:49:18.716 | DEBUG    | limitless_lifelog.notion.client:_add_comment:282 - Added comment to page 1f1e1347-4afd-81cb-a731-da8ec9a3985f
+2025-05-12 02:49:19.016 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 1 entries for projects database
+2025-05-12 02:49:19.201 | DEBUG    | limitless_lifelog.notion.client:update_databases:73 - Database projects has properties: ['Sign off project?', 'Project name', 'Owner', 'Status', 'Completion', 'Priority', 'Dates', 'Summary', 'Tasks', 'Is Blocking', 'Blocked By']
+2025-05-12 02:49:19.201 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Name' to 'Project name'
+2025-05-12 02:49:19.201 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:419 - Using default status 'Planning' for property 'Status'
+2025-05-12 02:49:20.941 | DEBUG    | limitless_lifelog.notion.client:_add_comment:282 - Added comment to page 1f1e1347-4afd-8128-a55d-ee538500ce88
+2025-05-12 02:49:21.242 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 3 entries for todo database
+2025-05-12 02:49:22.568 | DEBUG    | limitless_lifelog.notion.client:update_databases:73 - Database todo has properties: ['To-Do Completion', 'Days remaining', 'Status', 'Multi-select', 'Due date', 'Priority', 'Name']
+2025-05-12 02:49:22.569 | DEBUG    | limitless_lifelog.notion.client:_sanitize_date_properties:488 - Fixing empty start date for Due
+2025-05-12 02:49:22.569 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Title' to 'Name'
+2025-05-12 02:49:23.782 | DEBUG    | limitless_lifelog.notion.client:_add_comment:282 - Added comment to page 1f1e1347-4afd-819a-b722-c0e2d29110a9
+2025-05-12 02:49:24.083 | DEBUG    | limitless_lifelog.notion.client:_sanitize_date_properties:488 - Fixing empty start date for Due
+2025-05-12 02:49:24.083 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Title' to 'Name'
+2025-05-12 02:49:28.075 | DEBUG    | limitless_lifelog.notion.client:_add_comment:282 - Added comment to page 1f1e1347-4afd-81a5-a663-e2b36de7f6f5
+2025-05-12 02:49:28.375 | DEBUG    | limitless_lifelog.notion.client:_sanitize_date_properties:488 - Fixing empty start date for Due
+2025-05-12 02:49:28.376 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Title' to 'Name'
+2025-05-12 02:49:31.061 | DEBUG    | limitless_lifelog.notion.client:_add_comment:282 - Added comment to page 1f1e1347-4afd-81dc-81b6-dbb525fb5e7f
+2025-05-12 02:49:31.361 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 1 entries for lifelog database
+2025-05-12 02:49:31.561 | DEBUG    | limitless_lifelog.notion.client:update_databases:73 - Database lifelog has properties: ['Description', 'Assignee', 'Due Date', 'Priority', 'Tags', 'Status', 'Type', 'Name']
+2025-05-12 02:49:31.561 | DEBUG    | limitless_lifelog.notion.client:_map_properties_to_schema:431 - Mapped title property 'Entry' to 'Name'
+2025-05-12 02:49:32.260 | INFO     | limitless_lifelog.__main__:main:279 - Notion update completed: {'created': 13, 'updated': 0, 'failed': 0}
+2025-05-12 02:49:32.261 | INFO     | limitless_lifelog.__main__:main:287 - Updated last run timestamp
+2025-05-12 02:49:32.262 | INFO     | limitless_lifelog.__main__:main:289 - Process completed successfully
+2025-05-12 03:19:18.145 | INFO     | limitless_lifelog.__main__:main:145 - Starting Limitless Lifelog v0.1.0
+2025-05-12 03:19:18.146 | INFO     | limitless_lifelog.__main__:main:163 - Processing transcripts from the past 1 days
+2025-05-12 03:19:28.251 | INFO     | limitless_lifelog.__main__:main:193 - Fetching transcripts from Limitless API
+2025-05-12 03:19:32.650 | INFO     | limitless_lifelog.limitless.api_client:fetch_transcripts:234 - Retrieved 25 transcripts
+2025-05-12 03:19:32.650 | INFO     | limitless_lifelog.__main__:main:195 - Retrieved 25 transcripts
+2025-05-12 03:19:32.650 | INFO     | limitless_lifelog.__main__:main:208 - Processing 25 transcripts
+2025-05-12 03:19:32.789 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: 9beW7SRqHpxGiCvOpMb8
+2025-05-12 03:19:32.789 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: SLL5v27yPoTJ8A3HBzQe
+2025-05-12 03:19:32.790 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: Xsepy6UWD9Fac4LPSMRP
+2025-05-12 03:19:32.791 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: IIykEeMjCFDt044bFIOW
+2025-05-12 03:19:32.791 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: gNO38fAnFlivybCjZeEm
+2025-05-12 03:19:32.791 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: TjI24qUdpekQSXnLL1dS
+2025-05-12 03:19:32.791 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: BdmUbEwbXW5a6yjX3GC5
+2025-05-12 03:19:32.792 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: jmDycGGHctOkFi24lZRV
+2025-05-12 03:19:32.792 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: F2xWAcUUcRSx6CtA7chh
+2025-05-12 03:19:32.792 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: ITsKNxCBPRQG6BTUGme0
+2025-05-12 03:19:32.793 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: c1CZ7FNPGZGxWxmIM5P5
+2025-05-12 03:19:32.793 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: pItKcwxNsbqhj3VEHnpp
+2025-05-12 03:19:32.793 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: ZzbFCyQvK0fjg94iRYl9
+2025-05-12 03:19:32.794 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: Wvjzz6AQQrQFcQqymnox
+2025-05-12 03:19:32.794 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: iyvfmLmTRweif5fqMq3Z
+2025-05-12 03:19:32.794 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: fdz1mR0eaIQX8oXhKyVs
+2025-05-12 03:19:32.794 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: RnzPRpctZw96cVnaTVD2
+2025-05-12 03:19:32.795 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: RyQUlUabZq9AnVczUXt2
+2025-05-12 03:19:32.795 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: cgh2IIiZRcp9U725Wo2b
+2025-05-12 03:19:32.795 | INFO     | limitless_lifelog.transcripts.processor:filter_transcripts:270 - Including relevant transcript: T6gJWR3NhACUYayw0KZ7
+2025-05-12 03:19:32.796 | INFO     | limitless_lifelog.__main__:main:260 - 20 transcripts remain after filtering
+2025-05-12 03:19:32.796 | INFO     | limitless_lifelog.__main__:main:265 - Archived 20 transcripts to the file system
+2025-05-12 03:21:49.064 | INFO     | limitless_lifelog.__main__:main:269 - Extracted 8 actionable items
+2025-05-12 03:21:49.070 | INFO     | limitless_lifelog.__main__:main:277 - Updating Notion databases
+2025-05-12 03:21:49.070 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 6 entries for tasks database
+2025-05-12 03:22:10.187 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 2 entries for projects database
+2025-05-12 03:22:18.487 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 2 entries for todo database
+2025-05-12 03:22:24.463 | INFO     | limitless_lifelog.notion.client:update_databases:67 - Processing 1 entries for lifelog database
+2025-05-12 03:22:27.906 | INFO     | limitless_lifelog.__main__:main:279 - Notion update completed: {'created': 11, 'updated': 0, 'failed': 0}
+2025-05-12 03:22:27.907 | INFO     | limitless_lifelog.__main__:main:287 - Updated last run timestamp
+2025-05-12 03:22:27.907 | INFO     | limitless_lifelog.__main__:main:289 - Process completed successfully

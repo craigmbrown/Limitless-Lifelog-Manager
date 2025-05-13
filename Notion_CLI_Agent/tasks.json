@@ -1,0 +1,14 @@
+[
+  {
+    "properties": {
+      "Title": {"title": [{"text": {"content": "Task 1"}}]},
+      "Status": {"select": {"name": "Not started"}}
+    }
+  },
+  {
+    "properties": {
+      "Title": {"title": [{"text": {"content": "Task 2"}}]},
+      "Status": {"select": {"name": "Not started"}}
+    }
+  }
+]

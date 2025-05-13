@@ -1,0 +1,6 @@
+{
+  "Summary": {"rich_text": [{"text": {"content": "Project description"}}]},
+  "Status": {"select": {"name": "Planning"}},
+  "Priority": {"select": {"name": "High"}},
+  "Dates": {"date": {"start": "2023-10-01", "end": "2023-12-31"}}
+}

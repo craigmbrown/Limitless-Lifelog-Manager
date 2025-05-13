@@ -1,0 +1,6 @@
+{
+  "Status": {"select": {"name": "Not started"}},
+  "Priority": {"select": {"name": "High"}},
+  "Due date": {"date": {"start": "2023-10-20"}},
+  "Multi-select": {"multi_select": [{"name": "Personal"}, {"name": "Important"}]}
+}

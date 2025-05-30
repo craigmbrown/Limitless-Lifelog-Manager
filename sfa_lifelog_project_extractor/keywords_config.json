@@ -1,0 +1,31 @@
+{
+  "primary_keywords": ["TB", "TheBaby", "the baby"],
+  "context_window_words": 50,
+  "project_keywords": [
+    "project", "initiative", "program", "develop", "create", "build", 
+    "launch", "implement", "design", "strategy", "solution", "system", 
+    "platform", "framework", "architecture", "roadmap", "milestone",
+    "deliverable", "objective", "goal", "vision", "mission"
+  ],
+  "task_keywords": [
+    "analyze", "research", "review", "prepare", "document", "test", 
+    "validate", "coordinate", "organize", "plan", "execute", "manage", 
+    "assess", "evaluate", "investigate", "gather", "compile", "process",
+    "integrate", "optimize", "refactor", "deploy", "monitor", "troubleshoot"
+  ],
+  "todo_keywords": [
+    "check", "follow up", "remind", "email", "call", "schedule", 
+    "update", "fix", "add", "remove", "modify", "send", "respond", 
+    "complete", "verify", "confirm", "approve", "submit", "notify",
+    "contact", "meet", "discuss", "share", "report"
+  ],
+  "priority_indicators": {
+    "high": ["urgent", "critical", "asap", "immediately", "priority", "important", "deadline"],
+    "medium": ["soon", "next week", "upcoming", "planned", "scheduled"],
+    "low": ["eventually", "someday", "consider", "explore", "optional"]
+  },
+  "exclude_keywords": [
+    "maybe", "perhaps", "possibly", "could", "might", "unclear",
+    "uncertain", "unknown", "tbd", "n/a", "none"
+  ]
+}
